@@ -1,0 +1,28 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BatteryCollector-9080.dll"
+/IGNORE:4221
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"D:\Unreal\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\PCH.BatteryCollector.h.obj"
+"D:\Unreal\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollector.cpp.obj"
+"D:\Unreal\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollectorCharacter.cpp.obj"
+"D:\Unreal\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollectorGameMode.cpp.obj"
+"D:\Unreal\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryPickup.cpp.obj"
+"D:\Unreal\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\Pickup.cpp.obj"
+"D:\Unreal\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\SpawnVolume.cpp.obj"
+"D:\Unreal\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollector.generated.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Unreal\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9080.lib"
