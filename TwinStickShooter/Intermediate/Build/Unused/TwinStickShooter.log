@@ -1,0 +1,12 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for TwinStickShooterEditor
+    Running UnrealHeaderTool "D:\Unreal\TwinStickShooter\TwinStickShooter.uproject" "D:\Unreal\TwinStickShooter\Intermediate\Build\Win64\TwinStickShooterEditor\Development\TwinStickShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TwinStickShooterEditor in 2.7565889 seconds
+  Performing 3 actions (4 in parallel)
+  BasicCharacter.cpp
+  [2/3] Link UE4Editor-TwinStickShooter-9299.dll
+  [3/3] Link UE4Editor-TwinStickShooter-9299.lib
+     Creating library D:\Unreal\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TwinStickShooter-9299.lib and object D:\Unreal\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TwinStickShooter-9299.exp
+     Creating library D:\Unreal\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TwinStickShooter-9299.suppressed.lib and object D:\Unreal\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TwinStickShooter-9299.suppressed.exp
+  Deploying TwinStickShooterEditor Win64 Development...
+  Total build time: 6.24 seconds (Local executor: 1.98 seconds)

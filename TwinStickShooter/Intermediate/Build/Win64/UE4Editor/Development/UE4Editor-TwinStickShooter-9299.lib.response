@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TwinStickShooter-9299.dll"
+/IGNORE:4221
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"D:\Unreal\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\PCH.TwinStickShooter.h.obj"
+"D:\Unreal\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\BasicCharacter.cpp.obj"
+"D:\Unreal\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\TwinStickShooter.cpp.obj"
+"D:\Unreal\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\TwinStickShooter.generated.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Unreal\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TwinStickShooter-9299.lib"

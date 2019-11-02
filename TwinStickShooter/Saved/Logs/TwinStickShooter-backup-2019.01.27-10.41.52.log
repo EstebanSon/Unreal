@@ -1,0 +1,582 @@
+﻿Log file open, 01/26/19 19:42:14
+LogInit:Display: Running engine for game: TwinStickShooter
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-84992709) SRandInit(-84992709).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.068587
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal  -epicusername="dbwmzl1221" -epicuserid=66e3ab35bc9848fda1590c5682897d77 -epiclocale=ko-KR
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.26-10.42.15:105][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-10.42.15:105][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.26-10.42.15:125][  0]LogInit: Computer: SON-PC
+[2019.01.26-10.42.15:125][  0]LogInit: User: SON
+[2019.01.26-10.42.15:125][  0]LogInit: CPU Page size=65536, Cores=4
+[2019.01.26-10.42.15:125][  0]LogInit: High frequency timer resolution =3.234511 MHz
+[2019.01.26-10.42.15:126][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.26-10.42.15:126][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.26-10.42.15:126][  0]LogMemory: Process Physical Memory: 263.78 MB used, 263.78 MB peak
+[2019.01.26-10.42.15:126][  0]LogMemory: Process Virtual Memory: 264.12 MB used, 264.12 MB peak
+[2019.01.26-10.42.15:126][  0]LogMemory: Physical Memory: 4403.47 MB used,  11900.41 MB free, 16303.88 MB total
+[2019.01.26-10.42.15:126][  0]LogMemory: Virtual Memory: 628.07 MB used,  11900.41 MB free, 8388608.00 MB total
+[2019.01.26-10.42.15:186][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2019.01.26-10.42.15:229][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (502993589) Localized String: (내부 시간 누산기 - 이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (319969718) Localized String: (연관성 테스트에 무시 - true 인 경우 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" (연관 애님) 노드가
+이 노드를 무시합니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1232800293) Localized String: (블렌드 웨이트 - 이 노드에 대해 마지막으로 접한 블렌드 웨이트입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝까지 재생되면 반복할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복할까요?)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1865475011) Localized String: (첫 업데이트시 도입 상태에서의 트랜지션을 건너뛸까요? 
+기본은 true 로, 첫 업데이트시에는 트랜지션 데이터를 버립니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1865475011) Localized String: (첫 번째 업데이트 트랜지션 건너뛰기 - 첫 번째 업데이트에서 입력 스테이트의 트랜지션을 건너뜁니까?
+디폴트는 true 고 첫 번째 업데이트의 트랜지션 데이터를 버립니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (블렌드스페이스에서 샘플링할 X 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2060772590) Localized String: (X - 블렌드스페이스 샘플의 X 좌표입니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (블렌드스페이스에서 샘플링할 Y 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (Y - 블렌드스페이스 샘플의 Y 좌표입니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (블렌드스페이스에서 샘플링할 Z 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1728943471) Localized String: (Z - 블렌드스페이스 샘플의 Z 좌표입니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (재생할 블렌드스페이스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1599043277) Localized String: (블렌드스페이스 - 재생할 블렌드스페이스 애셋입니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (이 머신에서 한 프레임 내 '동시에' 취할 수 있는 트랜지션 최대 수입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1567650430) Localized String: (프레임 당 최대 트랜지션 - 한 프레임에서 이 머신이 동시에 취할 수 있는 트랜지션 최대 수입니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 배수입니다. 음수가 되면 애니메이션을 역순으로 재생하게 됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 되면 애니메이션을 거꾸로 재생합니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-207153555) Localized String: (시작 위치 범위는 [0,1] 이며, 재초기화시에만 적용됩니다.
+루핑을 하면, 1 회전 후 0.f 부터 시작할 것입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-207153555) Localized String: (시작 위치 - [0, 1] 범위의 시작 위치로, 재초기화할 때만 적용됩니다.
+반복하면 1회전 후 0.f 부터 시작됩니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1448580153) Localized String: (센서 폭 - 필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1448580153) Localized String: (필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-194807515) Localized String: (센서 종횡비 - 읽기 전용입니다. 센서 치수에서 계산했습니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-194807515) Localized String: (읽기 전용입니다. 센서 크기에서 계산했습니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복시켜야 할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝에 도달하면 계속해서 루핑시킬것인지 입니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (421436424) Localized String: (시퀀스 - 재생할 애니메이션 시퀀스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (421436424) Localized String: (재생할 애니메이션 시퀀스 애셋입니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 될 수 있으며, 그러면 애니메이션이 거꾸로 재생됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1274923958) Localized String: (플레이 속도 배수입니다. 음수가 되면 애니메이션이 역방향으로 재생됩니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (771611000) Localized String: (시작 위치 - 시작 위치로 재초기화할 때만 적용됩니다.
+반복하면, 1회전 후 0.f 부터 시작됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (771611000) Localized String: (시작 위치로, 재초기화시에만 적용됩니다.
+루핑을 하면, 1회전 후 0.f 부터 시작할 것입니다.)
+[2019.01.26-10.42.15:230][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1311569777) Localized String: (센서 높이 - 필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1311569777) Localized String: (필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+[2019.01.26-10.42.15:471][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.26-10.42.15:484][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2019.01.26-10.42.15:484][  0]LogD3D11RHI:       1969/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.26-10.42.15:484][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.26-10.42.15:487][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.26-10.42.15:487][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.26-10.42.15:487][  0]LogWindows: EnumDisplayDevices:
+[2019.01.26-10.42.15:487][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2019.01.26-10.42.15:488][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2019.01.26-10.42.15:488][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.01.26-10.42.15:488][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.01.26-10.42.15:488][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.01.26-10.42.15:488][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.01.26-10.42.15:488][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.01.26-10.42.15:488][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.01.26-10.42.15:488][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2019.01.26-10.42.15:488][  0]LogD3D11RHI:   Driver Version: 358.91 (internal:10.18.13.5891, unified:358.91)
+[2019.01.26-10.42.15:488][  0]LogD3D11RHI:      Driver Date: 11-5-2015
+[2019.01.26-10.42.15:488][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.01.26-10.42.15:495][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2019.01.26-10.42.15:495][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.26-10.42.15:509][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.26-10.42.15:510][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (D:/Unreal/TwinStickShooter/Intermediate/Shaders/WorkingDirectory/4548/).
+[2019.01.26-10.42.15:510][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SON/AppData/Local/Temp/UnrealShaderWorkingDir/3EAB6C7C4FB76034BD1165835042E396/'.
+[2019.01.26-10.42.15:510][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.01.26-10.42.16:349][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.26-10.42.16:386][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.01.26-10.42.16:423][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.26-10.42.16:461][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.01.26-10.42.16:499][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.01.26-10.42.16:536][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.26-10.42.16:574][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.26-10.42.16:611][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.26-10.42.16:641][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.01.26-10.42.16:677][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-10.42.16:714][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.01.26-10.42.16:751][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.01.26-10.42.16:787][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.01.26-10.42.16:824][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.01.26-10.42.16:861][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.01.26-10.42.16:934][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.01.26-10.42.16:934][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.01.26-10.42.16:957][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.01.26-10.42.17:027][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.01.26-10.42.17:051][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-10.42.17:088][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.26-10.42.17:124][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.26-10.42.17:161][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.26-10.42.17:198][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.01.26-10.42.17:198][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.01.26-10.42.17:468][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.01.26-10.42.17:508][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/SON/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2019.01.26-10.42.17:508][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SON/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2019.01.26-10.42.17:508][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal/TwinStickShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.26-10.42.17:508][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.26-10.42.17:508][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal/TwinStickShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-10.42.17:508][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.26-10.42.17:524][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.26-10.42.17:535][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SON/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.26-10.42.17:543][  0]LogSlate: Using Freetype 2.6.0
+[2019.01.26-10.42.17:543][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-10.42.17:543][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-10.42.17:773][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-10.42.17:775][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.01.26-10.42.17:928][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.26-10.42.17:955][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.26-10.42.17:982][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.26-10.42.17:982][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.01.26-10.42.17:982][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.01.26-10.42.18:385][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: twinstickshooter, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2279078725
+[2019.01.26-10.42.18:422][  0]LogAssetRegistry: FAssetRegistry took 0.0197 seconds to start up
+[2019.01.26-10.42.18:463][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.027545 seconds
+[2019.01.26-10.42.18:469][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2019.01.26-10.42.18:469][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2019.01.26-10.42.18:469][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.26-10.42.18:507][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.01.26-10.42.19:602][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.26-10.42.19:629][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.26-10.42.19:979][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.01.26-10.42.20:244][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2019.01.26-10.42.20:244][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2019.01.26-10.42.20:274][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2019.01.26-10.42.20:301][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2019.01.26-10.42.21:151][  0]LogEngine: Initializing Engine...
+[2019.01.26-10.42.21:151][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-10.42.21:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-10.42.21:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-10.42.21:343][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-10.42.21:356][  0]LogInit: XAudio2 using '27DOG-4(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-10.42.21:364][  0]LogInit: FAudioDevice initialized.
+[2019.01.26-10.42.21:385][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/SON/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2019.01.26-10.42.21:389][  0]LogInit: Texture streaming: Enabled
+[2019.01.26-10.42.21:448][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.26-10.42.21:501][  0]LogInit: Transaction tracking system initialized
+[2019.01.26-10.42.21:715][  0]BlueprintLog: New page: 에디터 로드
+[2019.01.26-10.42.22:258][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2019.01.26-10.42.22:675][  0]LogConsoleResponse:Display: 
+[2019.01.26-10.42.22:791][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.26-10.42.22:791][  0]LogCook:Display: Mobile HDR setting 1
+[2019.01.26-10.42.23:412][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/TwinStickShooter/Content/' took 0.01s
+[2019.01.26-10.42.23:413][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2019.01.26-10.42.23:413][  0]Cmd: MAP LOAD FILE="D:/Unreal/TwinStickShooter/Content/Maps/ArenaMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-10.42.23:428][  0]LightingResults: New page: 라이팅 빌드
+[2019.01.26-10.42.23:453][  0]MapCheck: New page: 맵 체크
+[2019.01.26-10.42.23:453][  0]LightingResults: New page: 라이팅 빌드
+[2019.01.26-10.42.24:793][  0]LogTexture:Display: 텍스처 빌드중: T_ML_FineRubber (AutoDXT, 2048X2048) - 45 MB 총 VRAM
+[2019.01.26-10.42.30:093][  0]LogTexture:Display: 텍스처 빌드중: UE4_Mannequin_occlusion_Mobile (AutoDXT, 4096X4096) - 45 MB 총 VRAM
+[2019.01.26-10.42.34:686][  0]LogTexture:Display: 텍스처 빌드중: T_FPGun_AO (BGRA8, 512X512) - 45 MB 총 VRAM
+[2019.01.26-10.42.34:956][  0]LogTexture:Display: 텍스처 빌드중: UE4_LOGO_CARD (AutoDXT, 4096X4096) - 45 MB 총 VRAM
+[2019.01.26-10.42.37:843][  0]LogTexture:Display: 텍스처 빌드중: T_FPGun_M (AutoDXT, 2048X2048) - 45 MB 총 VRAM
+[2019.01.26-10.42.38:511][  0]LogMaterial: Missing cached shader map for material M_FPGun, compiling. 
+[2019.01.26-10.42.38:516][  0]LogTemp:Display: Added material ShaderMap 0x00000000230F5980 with Material 0x0000000020C76680 to ShaderMapsBeingCompiled
+[2019.01.26-10.42.38:637][  0]LogTemp:Display: Kicking off shader compilation for M_FPGun, GameThreadShaderMap 0x00000000230F5980
+[2019.01.26-10.42.38:688][  0]LogTexture:Display: 텍스처 빌드중: T_ML_Rubber_Blue_01_D (DXT1, 512X512) - 45 MB 총 VRAM
+[2019.01.26-10.42.38:932][  0]LogTexture:Display: 텍스처 빌드중: T_ML_Rubber_Blue_01_N (BC5, 512X512) - 45 MB 총 VRAM
+[2019.01.26-10.42.38:993][  0]LogTexture:Display: 텍스처 빌드중: T_ML_Aluminum01 (DXT1, 512X512) - 45 MB 총 VRAM
+[2019.01.26-10.42.39:292][  0]LogTexture:Display: 텍스처 빌드중: T_ML_Aluminum01_N (BC5, 512X512) - 45 MB 총 VRAM
+[2019.01.26-10.42.39:344][  0]LogTexture:Display: 텍스처 빌드중: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024) - 45 MB 총 VRAM
+[2019.01.26-10.42.39:603][  0]LogTexture:Display: 텍스처 빌드중: UE4_Mannequin__normals (BC5, 2048X2048) - 45 MB 총 VRAM
+[2019.01.26-10.42.40:196][  0]LogTexture:Display: 텍스처 빌드중: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512) - 45 MB 총 VRAM
+[2019.01.26-10.42.40:379][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.01.26-10.42.40:381][  0]LogTemp:Display: Added material ShaderMap 0x0000000040979D00 with Material 0x00000000238EA680 to ShaderMapsBeingCompiled
+[2019.01.26-10.42.40:461][  0]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000000040979D00
+[2019.01.26-10.42.40:524][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_1 (AutoDXT, 512X512) - 64 MB 총 VRAM
+[2019.01.26-10.42.40:551][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_1 (DXT1, 512X512) - 64 MB 총 VRAM
+[2019.01.26-10.42.40:561][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_1 (AutoDXT, 512X256) - 64 MB 총 VRAM
+[2019.01.26-10.42.40:574][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_2 (G8, 512X128) - 64 MB 총 VRAM
+[2019.01.26-10.42.40:583][  0]LogTexture:Display: 텍스처 빌드중: UE4Man_Logo_N (BC5, 512X512) - 64 MB 총 VRAM
+[2019.01.26-10.42.40:620][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.01.26-10.42.40:621][  0]LogTemp:Display: Added material ShaderMap 0x0000000017E5E080 with Material 0x0000000049E5A980 to ShaderMapsBeingCompiled
+[2019.01.26-10.42.40:698][  0]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000000017E5E080
+[2019.01.26-10.42.40:718][  0]LogMaterial: Missing cached shader map for material ProjecttileMat, compiling. 
+[2019.01.26-10.42.40:718][  0]LogTemp:Display: Added material ShaderMap 0x000000004ECDBC80 with Material 0x0000000020D3FE80 to ShaderMapsBeingCompiled
+[2019.01.26-10.42.40:723][  0]LogTemp:Display: Kicking off shader compilation for ProjecttileMat, GameThreadShaderMap 0x000000004ECDBC80
+[2019.01.26-10.42.40:758][  0]LogAIModule: Creating AISystem for world ArenaMap
+[2019.01.26-10.42.40:789][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-10.42.40:791][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-10.42.40:822][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 30.849ms.
+[2019.01.26-10.42.40:822][  0]LogFileHelpers: Loading map 'ArenaMap' took 17.408
+[2019.01.26-10.42.41:308][  0]LogCollectionManager: Loaded 0 collections in 0.001027 seconds
+[2019.01.26-10.42.41:622][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/TwinStickShooter/Saved/Collections/' took 0.08s
+[2019.01.26-10.42.41:622][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/TwinStickShooter/Content/Developers/SON/Collections/' took 0.01s
+[2019.01.26-10.42.41:622][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/TwinStickShooter/Content/Collections/' took 0.00s
+[2019.01.26-10.42.41:622][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.01.26-10.42.41:632][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2246 classes and 455 folders.
+[2019.01.26-10.42.41:694][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.26-10.42.41:724][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.26-10.42.41:786][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.01.26-10.42.41:862][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.01.26-10.42.42:057][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0050 seconds. Added 1 classes and 2 folders.
+[2019.01.26-10.42.42:058][  0]LogLoad: (Engine Initialization) Total time: 28.91 seconds
+[2019.01.26-10.42.42:058][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2019.01.26-10.42.42:058][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.01.26-10.42.42:058][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.01.26-10.42.42:072][  0]LogOcInput: OculusInput pre-init called
+[2019.01.26-10.42.42:422][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.26-10.42.42:422][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.26-10.42.42:427][  0]LogSlate: Took 0.002739 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.01.26-10.42.42:428][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.26-10.42.42:437][  0]LogSlate: Took 0.000814 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.26-10.42.42:777][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:2).
+[2019.01.26-10.42.43:310][  1]LogAssetRegistry: Asset discovery search completed in 24.9069 seconds
+[2019.01.26-10.42.43:310][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2019.01.26-10.42.43:310][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2019.01.26-10.42.46:436][ 11]LogTemp:Display: Finished compile of shader map 0x00000000230F5980
+[2019.01.26-10.42.46:436][ 11]LogTemp:Display: Shader map M_FPGun complete, GameThreadShaderMap 0x00000000230F5980, marking material M_FPGun as finished
+[2019.01.26-10.42.46:436][ 11]LogTemp:Display: Marking material as finished 0x0000000020C76680
+[2019.01.26-10.42.52:083][ 25]LogTemp:Display: Finished compile of shader map 0x0000000040979D00
+[2019.01.26-10.42.52:083][ 25]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000000040979D00, marking material M_UE4Man_Body as finished
+[2019.01.26-10.42.52:083][ 25]LogTemp:Display: Marking material as finished 0x00000000238EA680
+[2019.01.26-10.42.57:157][ 37]LogTemp:Display: Finished compile of shader map 0x0000000017E5E080
+[2019.01.26-10.42.57:157][ 37]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000000017E5E080, marking material M_UE4Man_Body as finished
+[2019.01.26-10.42.57:157][ 37]LogTemp:Display: Marking material as finished 0x0000000049E5A980
+[2019.01.26-10.42.57:164][ 37]LogTemp:Display: Finished compile of shader map 0x000000004ECDBC80
+[2019.01.26-10.42.57:164][ 37]LogTemp:Display: Shader map ProjecttileMat complete, GameThreadShaderMap 0x000000004ECDBC80, marking material ProjecttileMat as finished
+[2019.01.26-10.42.57:164][ 37]LogTemp:Display: Marking material as finished 0x0000000020D3FE80
+[2019.01.26-10.57.17:338][108]LogSlate: Took 0.000885 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.26-15.33.47:470][ 72]Cmd: QUIT_EDITOR
+[2019.01.26-15.33.47:548][ 72]LogExit: Preparing to exit.
+[2019.01.26-15.33.48:052][ 72]LogExit: Editor shut down
+[2019.01.26-15.33.48:053][ 72]LogExit: Transaction tracking system shut down
+[2019.01.26-15.33.48:122][ 72]LogObj: Freed 0b from 0 cluster array pools.
+[2019.01.26-15.33.48:122][ 72]LogExit: Object subsystem successfully closed.
+[2019.01.26-15.33.48:131][ 72]LogD3D11RHI: Shutdown
+[2019.01.26-15.33.48:131][ 72]LogD3D11RHI: CleanupD3DDevice
+[2019.01.26-15.33.48:170][ 72]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.26-15.33.48:179][ 72]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2019.01.26-15.33.48:179][ 72]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2019.01.26-15.33.48:179][ 72]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2019.01.26-15.33.48:179][ 72]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2019.01.26-15.33.48:180][ 72]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2019.01.26-15.33.48:181][ 72]LogDirectoryWatcher: A directory notification for 'D:/Unreal/TwinStickShooter/Content/Collections/' was aborted.
+[2019.01.26-15.33.48:181][ 72]LogDirectoryWatcher: A directory notification for 'D:/Unreal/TwinStickShooter/Content/Developers/SON/Collections/' was aborted.
+[2019.01.26-15.33.48:181][ 72]LogDirectoryWatcher: A directory notification for 'D:/Unreal/TwinStickShooter/Saved/Collections/' was aborted.
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2019.01.26-15.33.48:181][ 72]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module Media (445)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2019.01.26-15.33.48:182][ 72]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2019.01.26-15.33.48:495][ 72]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2019.01.26-15.33.48:536][ 72]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2019.01.26-15.33.48:764][ 72]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2019.01.26-15.33.48:765][ 72]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2019.01.26-15.33.48:765][ 72]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2019.01.26-15.33.48:765][ 72]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2019.01.26-15.33.48:765][ 72]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2019.01.26-15.33.48:765][ 72]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2019.01.26-15.33.48:765][ 72]LogDirectoryWatcher: A directory notification for 'D:/Unreal/TwinStickShooter/Binaries/Win64' was aborted.
+[2019.01.26-15.33.48:766][ 72]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2019.01.26-15.33.48:766][ 72]LogModuleManager: Shutting down and abandoning module TwinStickShooter (224)
+[2019.01.26-15.33.48:766][ 72]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2019.01.26-15.33.48:766][ 72]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2019.01.26-15.33.48:766][ 72]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2019.01.26-15.33.48:766][ 72]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2019.01.26-15.33.48:866][ 72]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2019.01.26-15.33.48:966][ 72]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2019.01.26-15.33.48:969][ 72]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2019.01.26-15.33.48:969][ 72]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2019.01.26-15.33.48:969][ 72]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2019.01.26-15.33.48:969][ 72]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2019.01.26-15.33.48:969][ 72]LogModuleManager: Shutting down and abandoning module Core (154)
+[2019.01.26-15.33.48:969][ 72]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2019.01.26-15.33.49:064][ 72]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.01.26-15.33.49:065][ 72]LogDirectoryWatcher: A directory notification for 'D:/Unreal/TwinStickShooter/Content/' was aborted.
+[2019.01.26-15.33.49:065][ 72]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.01.26-15.33.49:065][ 72]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2019.01.26-15.33.49:065][ 72]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2019.01.26-15.33.49:065][ 72]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2019.01.26-15.33.49:065][ 72]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2019.01.26-15.33.49:065][ 72]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2019.01.26-15.33.49:065][ 72]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2019.01.26-15.33.49:065][ 72]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2019.01.26-15.33.49:065][ 72]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2019.01.26-15.33.49:065][ 72]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2019.01.26-15.33.49:116][ 72]LogDerivedDataCache: Shutdown
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2019.01.26-15.33.49:116][ 72]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2019.01.26-15.33.49:117][ 72]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2019.01.26-15.33.49:118][ 72]LogOnline:Display: Unloading online subsystem: NULL
+[2019.01.26-15.33.49:118][ 72]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2019.01.26-15.33.49:118][ 72]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2019.01.26-15.33.49:118][ 72]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.26-15.33.49:118][ 72]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B02F23057-4082-10F3-56EF-A2A5F0D3DD4B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=497f9872498a85a766ce3b967760e8ac%7C66e3ab35bc9848fda1590c5682897d77%7C1e04b740-c0d1-4e9a-9318-e6ea0e70597d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.26-15.33.49:151][ 72]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2019.01.26-15.33.49:153][ 72]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2019.01.26-15.33.49:153][ 72]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2019.01.26-15.33.49:153][ 72]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2019.01.26-15.33.49:153][ 72]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2019.01.26-15.33.49:153][ 72]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2019.01.26-15.33.49:156][ 72]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2019.01.26-15.33.49:156][ 72]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2019.01.26-15.33.49:156][ 72]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2019.01.26-15.33.49:156][ 72]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2019.01.26-15.33.49:156][ 72]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2019.01.26-15.33.49:156][ 72]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2019.01.26-15.33.49:156][ 72]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2019.01.26-15.33.49:156][ 72]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.26-15.33.49:156][ 72]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.26-15.33.49:156][ 72]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.26-15.33.49:158][ 72]LogExit: Exiting.
+[2019.01.26-15.33.49:175][ 72]Log file closed, 01/27/19 00:33:49
