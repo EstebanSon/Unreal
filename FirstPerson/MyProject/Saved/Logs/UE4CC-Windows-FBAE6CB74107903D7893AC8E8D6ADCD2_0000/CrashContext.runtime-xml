@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-FBAE6CB74107903D7893AC8E8D6ADCD2_0000</CrashGUID>
+		<ProcessId>1184</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>9047</SecondsSinceStart>
+		<GameName>UE4-MyProject</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.3-3450819+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;D:/Release/Unreal/FirstPerson/MyProject/MyProject.uproject&quot;-EpicPortal -epicusername=&quot;dbwmzl1221&quot; -epicuserid=66e3ab35bc9848fda1590c5682897d77 -epiclocale=ko-KR</CommandLine>
+		<LanguageLCID>1042</LanguageLCID>
+		<AppDefaultLocale>ko_KR</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3450819</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>SON</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.15/</RootDir>
+		<MachineId>38A3CD10464693F8483AC3BEFB6800E3</MachineId>
+		<LoginId>38a3cd10464693f8483ac3befb6800e3</LoginId>
+		<EpicAccountId>66e3ab35bc9848fda1590c5682897d77</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;LevelEditorViewport&quot; Label=&quot;뷰포트 1&quot; Content=SViewportsOverlay</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: ComponentModel-&gt;Surfs.IsValidIndex(Node.iSurf) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\ModelRender.cpp] [Line: 344] &nl;Invalid Surf Index, Idx:13, Num:12&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 960</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 7</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>Service Pack 1</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>17095856128</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>8796092891136</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>11551076352</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>8793368793088</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1260290048</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1347198976</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>2021289984</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>2118033408</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>637095006510970000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 7 Service Pack 1 64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
