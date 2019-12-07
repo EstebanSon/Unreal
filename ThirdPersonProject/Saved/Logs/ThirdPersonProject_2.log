@@ -1,0 +1,1139 @@
+﻿Log file open, 12/03/19 23:25:37
+LogInit:Display: Running engine for game: ThirdPersonProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1664228847) SRandInit(-1664228847).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080133
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  /Temp/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches -windowed 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.12.03-14.25.38:832][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.03-14.25.38:832][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.03-14.25.38:838][  0]LogInit: Computer: SON-PC
+[2019.12.03-14.25.38:838][  0]LogInit: User: SON
+[2019.12.03-14.25.38:838][  0]LogInit: CPU Page size=65536, Cores=4
+[2019.12.03-14.25.38:838][  0]LogInit: High frequency timer resolution =3.234414 MHz
+[2019.12.03-14.25.38:838][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.12.03-14.25.38:838][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.03-14.25.38:838][  0]LogMemory: Process Physical Memory: 264.48 MB used, 264.48 MB peak
+[2019.12.03-14.25.38:838][  0]LogMemory: Process Virtual Memory: 263.95 MB used, 263.95 MB peak
+[2019.12.03-14.25.38:838][  0]LogMemory: Physical Memory: 5970.75 MB used,  10333.13 MB free, 16303.88 MB total
+[2019.12.03-14.25.38:838][  0]LogMemory: Virtual Memory: 628.04 MB used,  10333.13 MB free, 8388608.00 MB total
+[2019.12.03-14.25.38:960][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (502993589) Localized String: (내부 시간 누산기 - 이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (319969718) Localized String: (연관성 테스트에 무시 - true 인 경우 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" (연관 애님) 노드가
+이 노드를 무시합니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1232800293) Localized String: (블렌드 웨이트 - 이 노드에 대해 마지막으로 접한 블렌드 웨이트입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝까지 재생되면 반복할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복할까요?)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1865475011) Localized String: (첫 업데이트시 도입 상태에서의 트랜지션을 건너뛸까요? 
+기본은 true 로, 첫 업데이트시에는 트랜지션 데이터를 버립니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1865475011) Localized String: (첫 번째 업데이트 트랜지션 건너뛰기 - 첫 번째 업데이트에서 입력 스테이트의 트랜지션을 건너뜁니까?
+디폴트는 true 고 첫 번째 업데이트의 트랜지션 데이터를 버립니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (블렌드스페이스에서 샘플링할 X 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2060772590) Localized String: (X - 블렌드스페이스 샘플의 X 좌표입니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (블렌드스페이스에서 샘플링할 Y 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (Y - 블렌드스페이스 샘플의 Y 좌표입니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (블렌드스페이스에서 샘플링할 Z 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1728943471) Localized String: (Z - 블렌드스페이스 샘플의 Z 좌표입니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (재생할 블렌드스페이스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1599043277) Localized String: (블렌드스페이스 - 재생할 블렌드스페이스 애셋입니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (이 머신에서 한 프레임 내 '동시에' 취할 수 있는 트랜지션 최대 수입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1567650430) Localized String: (프레임 당 최대 트랜지션 - 한 프레임에서 이 머신이 동시에 취할 수 있는 트랜지션 최대 수입니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 배수입니다. 음수가 되면 애니메이션을 역순으로 재생하게 됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 되면 애니메이션을 거꾸로 재생합니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-207153555) Localized String: (시작 위치 범위는 [0,1] 이며, 재초기화시에만 적용됩니다.
+루핑을 하면, 1 회전 후 0.f 부터 시작할 것입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-207153555) Localized String: (시작 위치 - [0, 1] 범위의 시작 위치로, 재초기화할 때만 적용됩니다.
+반복하면 1회전 후 0.f 부터 시작됩니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1448580153) Localized String: (센서 폭 - 필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1448580153) Localized String: (필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-194807515) Localized String: (센서 종횡비 - 읽기 전용입니다. 센서 치수에서 계산했습니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-194807515) Localized String: (읽기 전용입니다. 센서 크기에서 계산했습니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복시켜야 할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝에 도달하면 계속해서 루핑시킬것인지 입니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (421436424) Localized String: (시퀀스 - 재생할 애니메이션 시퀀스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (421436424) Localized String: (재생할 애니메이션 시퀀스 애셋입니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 될 수 있으며, 그러면 애니메이션이 거꾸로 재생됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1274923958) Localized String: (플레이 속도 배수입니다. 음수가 되면 애니메이션이 역방향으로 재생됩니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (771611000) Localized String: (시작 위치 - 시작 위치로 재초기화할 때만 적용됩니다.
+반복하면, 1회전 후 0.f 부터 시작됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (771611000) Localized String: (시작 위치로, 재초기화시에만 적용됩니다.
+루핑을 하면, 1회전 후 0.f 부터 시작할 것입니다.)
+[2019.12.03-14.25.39:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1311569777) Localized String: (센서 높이 - 필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1311569777) Localized String: (필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+[2019.12.03-14.25.39:158][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.03-14.25.39:177][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2019.12.03-14.25.39:177][  0]LogD3D11RHI:       1969/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.12.03-14.25.39:177][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.03-14.25.39:181][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.03-14.25.39:181][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.03-14.25.39:181][  0]LogWindows: EnumDisplayDevices:
+[2019.12.03-14.25.39:181][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2019.12.03-14.25.39:182][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2019.12.03-14.25.39:182][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.12.03-14.25.39:182][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.12.03-14.25.39:182][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.12.03-14.25.39:182][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.12.03-14.25.39:182][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.12.03-14.25.39:182][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.12.03-14.25.39:182][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2019.12.03-14.25.39:182][  0]LogD3D11RHI:   Driver Version: 358.91 (internal:10.18.13.5891, unified:358.91)
+[2019.12.03-14.25.39:182][  0]LogD3D11RHI:      Driver Date: 11-5-2015
+[2019.12.03-14.25.39:182][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.12.03-14.25.39:194][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2019.12.03-14.25.39:194][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.03-14.25.39:207][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.12.03-14.25.39:210][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (D:/Release/Unreal/ThirdPersonProject/Intermediate/Shaders/WorkingDirectory/5648/).
+[2019.12.03-14.25.39:210][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SON/AppData/Local/Temp/UnrealShaderWorkingDir/A6FF03EE4E08D2D854A0988F704166C9/'.
+[2019.12.03-14.25.39:210][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.12.03-14.25.40:282][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.12.03-14.25.40:360][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.12.03-14.25.40:446][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.12.03-14.25.40:523][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.12.03-14.25.40:523][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.12.03-14.25.41:151][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.12.03-14.25.41:200][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/SON/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2019.12.03-14.25.41:200][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SON/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2019.12.03-14.25.41:200][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Release/Unreal/ThirdPersonProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.03-14.25.41:200][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.03-14.25.41:200][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Release/Unreal/ThirdPersonProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.03-14.25.41:200][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.03-14.25.41:217][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.03-14.25.41:229][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SON/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.03-14.25.41:607][  0]LogSlate: Using Freetype 2.6.0
+[2019.12.03-14.25.41:608][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.03-14.25.41:608][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.03-14.25.41:921][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2019.12.03-14.25.41:927][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.006200 seconds
+[2019.12.03-14.25.41:958][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.03-14.25.41:960][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2019.12.03-14.25.41:987][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2019.12.03-14.25.41:990][  0]LogTemp:Display: Added material ShaderMap 0x0000000026B9B200 with Material 0x0000000025F7E800 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.26:889][  0]LogTemp:Display: Finished compile of shader map 0x0000000026B9B200
+[2019.12.03-14.26.26:889][  0]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x0000000026B9B200, marking material WorldGridMaterial as finished
+[2019.12.03-14.26.26:889][  0]LogTemp:Display: Marking material as finished 0x0000000025F7E800
+[2019.12.03-14.26.26:912][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2019.12.03-14.26.26:913][  0]LogTemp:Display: Added material ShaderMap 0x000000002BDFBC80 with Material 0x0000000025F7FA00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.33:887][  0]LogTemp:Display: Finished compile of shader map 0x000000002BDFBC80
+[2019.12.03-14.26.33:887][  0]LogTemp:Display: Shader map DefaultDeferredDecalMaterial complete, GameThreadShaderMap 0x000000002BDFBC80, marking material DefaultDeferredDecalMaterial as finished
+[2019.12.03-14.26.33:887][  0]LogTemp:Display: Marking material as finished 0x0000000025F7FA00
+[2019.12.03-14.26.33:892][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2019.12.03-14.26.33:893][  0]LogTemp:Display: Added material ShaderMap 0x0000000014D8C480 with Material 0x0000000025F8D180 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.34:025][  0]LogTemp:Display: Finished compile of shader map 0x0000000014D8C480
+[2019.12.03-14.26.34:025][  0]LogTemp:Display: Shader map DefaultLightFunctionMaterial complete, GameThreadShaderMap 0x0000000014D8C480, marking material DefaultLightFunctionMaterial as finished
+[2019.12.03-14.26.34:025][  0]LogTemp:Display: Marking material as finished 0x0000000025F8D180
+[2019.12.03-14.26.34:029][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2019.12.03-14.26.34:029][  0]LogTemp:Display: Added material ShaderMap 0x0000000014D8D980 with Material 0x0000000025F8E680 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.34:433][  0]LogTemp:Display: Finished compile of shader map 0x0000000014D8D980
+[2019.12.03-14.26.34:433][  0]LogTemp:Display: Shader map DefaultPostProcessMaterial complete, GameThreadShaderMap 0x0000000014D8D980, marking material DefaultPostProcessMaterial as finished
+[2019.12.03-14.26.34:433][  0]LogTemp:Display: Marking material as finished 0x0000000025F8E680
+[2019.12.03-14.26.34:436][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2019.12.03-14.26.34:436][  0]LogTemp:Display: Added material ShaderMap 0x0000000026B99600 with Material 0x0000000025F75180 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.34:440][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x0000000026B99600
+[2019.12.03-14.26.34:442][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2019.12.03-14.26.34:442][  0]LogTemp:Display: Added material ShaderMap 0x0000000014D8F200 with Material 0x0000000026B9CB80 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.34:447][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x0000000014D8F200
+[2019.12.03-14.26.34:449][  0]LogTemp:Display: Added shader map 0x0000000026B99600 from material 0x0000000026B9E080
+[2019.12.03-14.26.34:449][  0]LogTemp:Display: Found existing compiling shader for material Widget3DPassThrough, linking to other GameThreadShaderMap 0x0000000026B99600
+[2019.12.03-14.26.34:451][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2019.12.03-14.26.34:452][  0]LogTemp:Display: Added material ShaderMap 0x0000000026A4A780 with Material 0x000000002A729300 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.34:455][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x0000000026A4A780
+[2019.12.03-14.26.34:456][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2019.12.03-14.26.34:457][  0]LogTemp:Display: Added material ShaderMap 0x00000000269D9D00 with Material 0x000000002A72B580 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.34:459][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x00000000269D9D00
+[2019.12.03-14.26.34:461][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2019.12.03-14.26.34:461][  0]LogTemp:Display: Added material ShaderMap 0x000000002697B900 with Material 0x0000000014D9BA00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.34:467][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x000000002697B900
+[2019.12.03-14.26.34:469][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2019.12.03-14.26.34:470][  0]LogTemp:Display: Added material ShaderMap 0x000000002774A080 with Material 0x0000000014D9A200 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.34:475][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x000000002774A080
+[2019.12.03-14.26.34:482][  0]LogMaterial: Missing cached shader map for material CineMat, compiling. 
+[2019.12.03-14.26.34:485][  0]LogTemp:Display: Added material ShaderMap 0x0000000025910480 with Material 0x000000002C786200 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.34:537][  0]LogTemp:Display: Kicking off shader compilation for CineMat, GameThreadShaderMap 0x0000000025910480
+[2019.12.03-14.26.34:828][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.03-14.26.34:959][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.12.03-14.26.35:028][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.12.03-14.26.35:028][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.12.03-14.26.35:028][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.12.03-14.26.35:200][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2019.12.03-14.26.35:201][  0]LogTemp:Display: Added material ShaderMap 0x0000000027BAB580 with Material 0x0000000027A65A80 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:255][  0]LogTemp:Display: Kicking off shader compilation for MatineeCam_mat, GameThreadShaderMap 0x0000000027BAB580
+[2019.12.03-14.26.35:262][  0]LogMaterial: Missing cached shader map for material M_SimpleOpaque, compiling. 
+[2019.12.03-14.26.35:263][  0]LogTemp:Display: Added material ShaderMap 0x000000002ABA7C80 with Material 0x0000000029B9EE00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:283][  0]LogTemp:Display: Kicking off shader compilation for M_SimpleOpaque, GameThreadShaderMap 0x000000002ABA7C80
+[2019.12.03-14.26.35:308][  0]LogMaterial: Missing cached shader map for material M_SimpleTranslucent, compiling. 
+[2019.12.03-14.26.35:309][  0]LogTemp:Display: Added material ShaderMap 0x0000000028709280 with Material 0x0000000029B9D600 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:408][  0]LogTemp:Display: Kicking off shader compilation for M_SimpleTranslucent, GameThreadShaderMap 0x0000000028709280
+[2019.12.03-14.26.35:442][  0]LogMaterial: Missing cached shader map for material TransformGizmoMaterial, compiling. 
+[2019.12.03-14.26.35:443][  0]LogTemp:Display: Added material ShaderMap 0x0000000028F04800 with Material 0x000000002B308D00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:445][  0]LogTemp:Display: Kicking off shader compilation for TransformGizmoMaterial, GameThreadShaderMap 0x0000000028F04800
+[2019.12.03-14.26.35:459][  0]LogMaterial: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling. 
+[2019.12.03-14.26.35:460][  0]LogTemp:Display: Added material ShaderMap 0x0000000028B3E780 with Material 0x0000000028ED6B00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:471][  0]LogTemp:Display: Kicking off shader compilation for TranslucentTransformGizmoMaterial, GameThreadShaderMap 0x0000000028B3E780
+[2019.12.03-14.26.35:516][  0]LogMaterial: Missing cached shader map for material M_ContentWindow, compiling. 
+[2019.12.03-14.26.35:517][  0]LogTemp:Display: Added material ShaderMap 0x000000002AAD0F00 with Material 0x000000002B749600 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:545][  0]LogTemp:Display: Kicking off shader compilation for M_ContentWindow, GameThreadShaderMap 0x000000002AAD0F00
+[2019.12.03-14.26.35:552][  0]LogMaterial: Missing cached shader map for material LineMaterial, compiling. 
+[2019.12.03-14.26.35:553][  0]LogTemp:Display: Added material ShaderMap 0x000000002828EE80 with Material 0x000000002AEFD180 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:574][  0]LogTemp:Display: Kicking off shader compilation for LineMaterial, GameThreadShaderMap 0x000000002828EE80
+[2019.12.03-14.26.35:579][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
+[2019.12.03-14.26.35:580][  0]LogTemp:Display: Added material ShaderMap 0x0000000029F97900 with Material 0x000000002825F400 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:585][  0]LogTemp:Display: Kicking off shader compilation for VRTextMaterial, GameThreadShaderMap 0x0000000029F97900
+[2019.12.03-14.26.35:587][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
+[2019.12.03-14.26.35:588][  0]LogTemp:Display: Added material ShaderMap 0x0000000029F5B580 with Material 0x000000002825D600 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:592][  0]LogTemp:Display: Kicking off shader compilation for VRTextMaterial, GameThreadShaderMap 0x0000000029F5B580
+[2019.12.03-14.26.35:596][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2019.12.03-14.26.35:597][  0]LogTemp:Display: Added material ShaderMap 0x000000002ADE7900 with Material 0x000000002B6FBD00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:654][  0]LogTemp:Display: Kicking off shader compilation for DefaultTextMaterialOpaque, GameThreadShaderMap 0x000000002ADE7900
+[2019.12.03-14.26.35:668][  0]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
+[2019.12.03-14.26.35:669][  0]LogTemp:Display: Added material ShaderMap 0x000000002D9ADD00 with Material 0x000000002D97B280 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:758][  0]LogTemp:Display: Kicking off shader compilation for GenericHMDMaterial, GameThreadShaderMap 0x000000002D9ADD00
+[2019.12.03-14.26.35:770][  0]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2019.12.03-14.26.35:771][  0]LogTemp:Display: Added material ShaderMap 0x000000002E64E780 with Material 0x000000002D979780 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:779][  0]LogTemp:Display: Kicking off shader compilation for FlattenHeightMat, GameThreadShaderMap 0x000000002E64E780
+[2019.12.03-14.26.35:785][  0]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2019.12.03-14.26.35:786][  0]LogTemp:Display: Added material ShaderMap 0x000000002E3F6400 with Material 0x000000002E63A800 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:791][  0]LogTemp:Display: Kicking off shader compilation for GridMaterial, GameThreadShaderMap 0x000000002E3F6400
+[2019.12.03-14.26.35:797][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2019.12.03-14.26.35:798][  0]LogTemp:Display: Added material ShaderMap 0x000000002E392400 with Material 0x000000002E36BB80 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:802][  0]LogTemp:Display: Kicking off shader compilation for LaserPointerMaterial, GameThreadShaderMap 0x000000002E392400
+[2019.12.03-14.26.35:804][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2019.12.03-14.26.35:805][  0]LogTemp:Display: Added material ShaderMap 0x000000002E391280 with Material 0x000000002E368100 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:811][  0]LogTemp:Display: Kicking off shader compilation for LaserPointerMaterial, GameThreadShaderMap 0x000000002E391280
+[2019.12.03-14.26.35:818][  0]LogMaterial: Missing cached shader map for material GridPostProcess, compiling. 
+[2019.12.03-14.26.35:818][  0]LogTemp:Display: Added material ShaderMap 0x000000002E318100 with Material 0x000000002E331D80 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:827][  0]LogTemp:Display: Kicking off shader compilation for GridPostProcess, GameThreadShaderMap 0x000000002E318100
+[2019.12.03-14.26.35:895][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2019.12.03-14.26.35:895][  0]LogTemp:Display: Added material ShaderMap 0x000000002E298800 with Material 0x000000002E030400 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:898][  0]LogTemp:Display: Kicking off shader compilation for SkySphereMaterial, GameThreadShaderMap 0x000000002E298800
+[2019.12.03-14.26.35:903][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2019.12.03-14.26.35:904][  0]LogTemp:Display: Added material ShaderMap 0x0000000032996780 with Material 0x0000000029F42E00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.35:999][  0]LogTemp:Display: Kicking off shader compilation for FloorPlaneMaterial, GameThreadShaderMap 0x0000000032996780
+[2019.12.03-14.26.36:071][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2019.12.03-14.26.36:071][  0]LogTemp:Display: Added material ShaderMap 0x00000000334D6E80 with Material 0x00000000302FFA00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.36:077][  0]LogTemp:Display: Kicking off shader compilation for LandscapeGizmo_Mat, GameThreadShaderMap 0x00000000334D6E80
+[2019.12.03-14.26.36:079][  0]LogTemp:Display: Added shader map 0x00000000334D6E80 from material 0x00000000302FDF00
+[2019.12.03-14.26.36:079][  0]LogTemp:Display: Found existing compiling shader for material LandscapeGizmo_Mat, linking to other GameThreadShaderMap 0x00000000334D6E80
+[2019.12.03-14.26.36:088][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2019.12.03-14.26.36:089][  0]LogTemp:Display: Added material ShaderMap 0x0000000033155280 with Material 0x00000000302FCD00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.36:146][  0]LogTemp:Display: Kicking off shader compilation for LandscapeGizmoHeight_Mat, GameThreadShaderMap 0x0000000033155280
+[2019.12.03-14.26.36:154][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2019.12.03-14.26.36:154][  0]LogTemp:Display: Added material ShaderMap 0x0000000036631980 with Material 0x00000000365EBD00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.36:160][  0]LogTemp:Display: Kicking off shader compilation for SplineEditorMeshMat, GameThreadShaderMap 0x0000000036631980
+[2019.12.03-14.26.36:180][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2019.12.03-14.26.36:181][  0]LogTemp:Display: Added material ShaderMap 0x0000000036536E80 with Material 0x00000000365E9300 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.36:196][  0]LogTemp:Display: Kicking off shader compilation for HelpActorMaterial, GameThreadShaderMap 0x0000000036536E80
+[2019.12.03-14.26.36:325][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: thirdpersonproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4086958802
+[2019.12.03-14.26.36:435][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.12.03-14.26.38:174][  0]LogMoviePlayer: Initializing movie player
+[2019.12.03-14.26.38:841][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2019.12.03-14.26.38:842][  0]LogTemp:Display: Added material ShaderMap 0x0000000023FB1280 with Material 0x00000000233A0A00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.38:847][  0]LogTemp:Display: Kicking off shader compilation for DefaultSpriteMaterial, GameThreadShaderMap 0x0000000023FB1280
+[2019.12.03-14.26.38:849][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2019.12.03-14.26.38:850][  0]LogTemp:Display: Added material ShaderMap 0x0000000020F79D00 with Material 0x0000000023F8EB00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.38:853][  0]LogTemp:Display: Kicking off shader compilation for DefaultSpriteMaterial, GameThreadShaderMap 0x0000000020F79D00
+[2019.12.03-14.26.39:120][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.03-14.26.39:177][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.03-14.26.39:412][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2019.12.03-14.26.39:413][  0]LogTemp:Display: Added material ShaderMap 0x000000001C490100 with Material 0x0000000020B14D00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.39:572][  0]LogTemp:Display: Kicking off shader compilation for DefaultMaterial, GameThreadShaderMap 0x000000001C490100
+[2019.12.03-14.26.39:793][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2019.12.03-14.26.39:793][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2019.12.03-14.26.39:871][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2019.12.03-14.26.40:887][  0]LogUObjectArray: 34408 objects as part of root set at end of initial load.
+[2019.12.03-14.26.40:887][  0]LogUObjectAllocator: 7639328 out of 0 bytes used by permanent object pool.
+[2019.12.03-14.26.40:887][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.03-14.26.41:021][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2019.12.03-14.26.41:022][  0]LogTemp:Display: Added material ShaderMap 0x000000003D679980 with Material 0x000000003D5E7880 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.41:028][  0]LogTemp:Display: Kicking off shader compilation for HighResScreenshot, GameThreadShaderMap 0x000000003D679980
+[2019.12.03-14.26.41:031][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2019.12.03-14.26.41:031][  0]LogTemp:Display: Added material ShaderMap 0x000000003D5BCB80 with Material 0x000000003D5E5180 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.41:037][  0]LogTemp:Display: Kicking off shader compilation for HighResScreenshotMask, GameThreadShaderMap 0x000000003D5BCB80
+[2019.12.03-14.26.41:041][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2019.12.03-14.26.41:041][  0]LogTemp:Display: Added material ShaderMap 0x000000003D574100 with Material 0x000000003D58B580 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.41:044][  0]LogTemp:Display: Kicking off shader compilation for HighResScreenshotCaptureRegion, GameThreadShaderMap 0x000000003D574100
+[2019.12.03-14.26.41:057][  0]LogEngine: Initializing Engine...
+[2019.12.03-14.26.41:060][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.03-14.26.41:078][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2019.12.03-14.26.41:079][  0]LogTemp:Display: Added material ShaderMap 0x000000003D515600 with Material 0x000000003D588280 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.41:144][  0]LogTemp:Display: Kicking off shader compilation for WireframeMaterial, GameThreadShaderMap 0x000000003D515600
+[2019.12.03-14.26.41:149][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2019.12.03-14.26.41:149][  0]LogTemp:Display: Added material ShaderMap 0x000000003D010480 with Material 0x000000003D4E9000 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.41:482][  0]LogTemp:Display: Kicking off shader compilation for LevelColorationLitMaterial, GameThreadShaderMap 0x000000003D010480
+[2019.12.03-14.26.41:484][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2019.12.03-14.26.41:485][  0]LogTemp:Display: Added material ShaderMap 0x000000003F723200 with Material 0x000000003AA4B100 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.41:527][  0]LogTemp:Display: Kicking off shader compilation for LevelColorationUnlitMaterial, GameThreadShaderMap 0x000000003F723200
+[2019.12.03-14.26.41:533][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2019.12.03-14.26.41:533][  0]LogTemp:Display: Added material ShaderMap 0x0000000040EBB580 with Material 0x000000003AA49000 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.41:934][  0]LogTemp:Display: Kicking off shader compilation for MAT_LevelColorationLitLightmapUV, GameThreadShaderMap 0x0000000040EBB580
+[2019.12.03-14.26.41:941][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2019.12.03-14.26.41:942][  0]LogTemp:Display: Added material ShaderMap 0x0000000044682400 with Material 0x000000004331A200 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.42:543][  0]LogTemp:Display: Kicking off shader compilation for ShadedLevelColorationLitMaterial, GameThreadShaderMap 0x0000000044682400
+[2019.12.03-14.26.42:548][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2019.12.03-14.26.42:550][  0]LogTemp:Display: Added material ShaderMap 0x0000000049E3A080 with Material 0x000000004929F880 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.42:634][  0]LogTemp:Display: Kicking off shader compilation for ShadedLevelColorationUnlitMateri, GameThreadShaderMap 0x0000000049E3A080
+[2019.12.03-14.26.42:637][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2019.12.03-14.26.42:640][  0]LogTemp:Display: Added material ShaderMap 0x0000000049648100 with Material 0x000000004929CE80 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.42:751][  0]LogTemp:Display: Kicking off shader compilation for VertexColorMaterial, GameThreadShaderMap 0x0000000049648100
+[2019.12.03-14.26.42:760][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2019.12.03-14.26.42:762][  0]LogTemp:Display: Added material ShaderMap 0x000000004AAB1280 with Material 0x00000000495D7880 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.42:777][  0]LogTemp:Display: Kicking off shader compilation for VertexColorViewMode_ColorOnly, GameThreadShaderMap 0x000000004AAB1280
+[2019.12.03-14.26.42:782][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2019.12.03-14.26.42:784][  0]LogTemp:Display: Added material ShaderMap 0x000000004AA59280 with Material 0x00000000495D6080 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.42:799][  0]LogTemp:Display: Kicking off shader compilation for VertexColorViewMode_AlphaAsColor, GameThreadShaderMap 0x000000004AA59280
+[2019.12.03-14.26.42:802][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2019.12.03-14.26.42:808][  0]LogTemp:Display: Added material ShaderMap 0x000000004A9F9280 with Material 0x00000000495D4B80 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.42:818][  0]LogTemp:Display: Kicking off shader compilation for VertexColorViewMode_RedOnly, GameThreadShaderMap 0x000000004A9F9280
+[2019.12.03-14.26.42:827][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2019.12.03-14.26.42:828][  0]LogTemp:Display: Added material ShaderMap 0x000000004A719280 with Material 0x000000004A73B400 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.42:841][  0]LogTemp:Display: Kicking off shader compilation for VertexColorViewMode_GreenOnly, GameThreadShaderMap 0x000000004A719280
+[2019.12.03-14.26.42:846][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2019.12.03-14.26.42:849][  0]LogTemp:Display: Added material ShaderMap 0x000000004A6B1280 with Material 0x000000004A739F00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.42:863][  0]LogTemp:Display: Kicking off shader compilation for VertexColorViewMode_BlueOnly, GameThreadShaderMap 0x000000004A6B1280
+[2019.12.03-14.26.42:866][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2019.12.03-14.26.42:867][  0]LogTemp:Display: Added material ShaderMap 0x000000004A651980 with Material 0x000000004A738D00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.42:876][  0]LogTemp:Display: Kicking off shader compilation for RemoveSurfaceMaterial, GameThreadShaderMap 0x000000004A651980
+[2019.12.03-14.26.42:881][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2019.12.03-14.26.42:882][  0]LogTemp:Display: Added material ShaderMap 0x000000004B337C80 with Material 0x000000004A5FF580 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.42:900][  0]LogTemp:Display: Kicking off shader compilation for DebugMeshMaterial, GameThreadShaderMap 0x000000004B337C80
+[2019.12.03-14.26.42:908][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2019.12.03-14.26.42:909][  0]LogTemp:Display: Added material ShaderMap 0x000000004B2D7580 with Material 0x000000004A5FDF00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.43:009][  0]LogTemp:Display: Kicking off shader compilation for M_InvalidLightmapSettings, GameThreadShaderMap 0x000000004B2D7580
+[2019.12.03-14.26.43:016][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2019.12.03-14.26.43:017][  0]LogTemp:Display: Added material ShaderMap 0x000000004B9D9D00 with Material 0x000000004A5FCB80 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.43:022][  0]LogTemp:Display: Kicking off shader compilation for GizmoMaterial, GameThreadShaderMap 0x000000004B9D9D00
+[2019.12.03-14.26.43:028][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2019.12.03-14.26.43:028][  0]LogTemp:Display: Added material ShaderMap 0x000000004B716E80 with Material 0x000000004B9B6B00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.43:034][  0]LogTemp:Display: Kicking off shader compilation for PhAT_JointLimitMaterial, GameThreadShaderMap 0x000000004B716E80
+[2019.12.03-14.26.43:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.12.03-14.26.43:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.12.03-14.26.43:510][  0]LogInit: XAudio2 using '27DOG-4(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.03-14.26.43:918][  0]LogInit: FAudioDevice initialized.
+[2019.12.03-14.26.43:997][  0]LogInit: Texture streaming: Enabled
+[2019.12.03-14.26.43:999][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2019.12.03-14.26.44:000][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_ES2, Default Material will be used in game.
+[2019.12.03-14.26.44:000][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2019.12.03-14.26.44:002][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2019.12.03-14.26.44:002][  0]LogTemp:Display: Added material ShaderMap 0x000000004B6B2400 with Material 0x000000004B676080 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:005][  0]LogTemp:Display: Kicking off shader compilation for CustomDepth, GameThreadShaderMap 0x000000004B6B2400
+[2019.12.03-14.26.44:013][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.12.03-14.26.44:016][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2019.12.03-14.26.44:018][  0]LogTemp:Display: Added material ShaderMap 0x000000001EBBAB00 with Material 0x000000004B674700 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:025][  0]LogTemp:Display: Kicking off shader compilation for CustomStencil, GameThreadShaderMap 0x000000001EBBAB00
+[2019.12.03-14.26.44:028][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2019.12.03-14.26.44:029][  0]LogTemp:Display: Added material ShaderMap 0x0000000019AD5280 with Material 0x000000004C2F6380 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:035][  0]LogTemp:Display: Kicking off shader compilation for FinalImage, GameThreadShaderMap 0x0000000019AD5280
+[2019.12.03-14.26.44:045][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2019.12.03-14.26.44:045][  0]LogTemp:Display: Added material ShaderMap 0x000000004C296780 with Material 0x000000004C2F4A00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:050][  0]LogTemp:Display: Kicking off shader compilation for LightingModel, GameThreadShaderMap 0x000000004C296780
+[2019.12.03-14.26.44:052][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2019.12.03-14.26.44:053][  0]LogTemp:Display: Added material ShaderMap 0x000000004C294480 with Material 0x0000000025F77280 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:055][  0]LogTemp:Display: Kicking off shader compilation for MaterialAO, GameThreadShaderMap 0x000000004C294480
+[2019.12.03-14.26.44:057][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2019.12.03-14.26.44:058][  0]LogTemp:Display: Added material ShaderMap 0x000000004C232080 with Material 0x000000004C24A980 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:061][  0]LogTemp:Display: Kicking off shader compilation for Metallic, GameThreadShaderMap 0x000000004C232080
+[2019.12.03-14.26.44:064][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2019.12.03-14.26.44:067][  0]LogTemp:Display: Added material ShaderMap 0x000000004C1C7C80 with Material 0x000000004C249300 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:069][  0]LogTemp:Display: Kicking off shader compilation for Opacity, GameThreadShaderMap 0x000000004C1C7C80
+[2019.12.03-14.26.44:073][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2019.12.03-14.26.44:075][  0]LogTemp:Display: Added material ShaderMap 0x000000004C1C5980 with Material 0x000000004C1CB700 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:082][  0]LogTemp:Display: Kicking off shader compilation for Roughness, GameThreadShaderMap 0x000000004C1C5980
+[2019.12.03-14.26.44:086][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2019.12.03-14.26.44:088][  0]LogTemp:Display: Added material ShaderMap 0x000000004C1AF580 with Material 0x000000004C1C9D80 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:099][  0]LogTemp:Display: Kicking off shader compilation for SceneColor, GameThreadShaderMap 0x000000004C1AF580
+[2019.12.03-14.26.44:100][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2019.12.03-14.26.44:101][  0]LogTemp:Display: Added material ShaderMap 0x000000004C1ACF00 with Material 0x000000004C1C8580 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:104][  0]LogTemp:Display: Kicking off shader compilation for SceneDepth, GameThreadShaderMap 0x000000004C1ACF00
+[2019.12.03-14.26.44:106][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2019.12.03-14.26.44:106][  0]LogTemp:Display: Added material ShaderMap 0x000000004C14AB00 with Material 0x000000004C15E980 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:109][  0]LogTemp:Display: Kicking off shader compilation for SeparateTranslucencyRGB, GameThreadShaderMap 0x000000004C14AB00
+[2019.12.03-14.26.44:111][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2019.12.03-14.26.44:112][  0]LogTemp:Display: Added material ShaderMap 0x000000004C148800 with Material 0x000000004C15D000 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:114][  0]LogTemp:Display: Kicking off shader compilation for SeparateTranslucencyA, GameThreadShaderMap 0x000000004C148800
+[2019.12.03-14.26.44:116][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2019.12.03-14.26.44:117][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_ES2, Default Material will be used in game.
+[2019.12.03-14.26.44:117][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2019.12.03-14.26.44:118][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2019.12.03-14.26.44:119][  0]LogTemp:Display: Added material ShaderMap 0x000000004C0D1D00 with Material 0x000000004C0DE080 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:122][  0]LogTemp:Display: Kicking off shader compilation for SubsurfaceColor, GameThreadShaderMap 0x000000004C0D1D00
+[2019.12.03-14.26.44:123][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2019.12.03-14.26.44:124][  0]LogTemp:Display: Added material ShaderMap 0x000000004C06B580 with Material 0x000000004C0DC700 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:127][  0]LogTemp:Display: Kicking off shader compilation for WorldNormal, GameThreadShaderMap 0x000000004C06B580
+[2019.12.03-14.26.44:129][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2019.12.03-14.26.44:129][  0]LogTemp:Display: Added material ShaderMap 0x000000004C069280 with Material 0x000000004C056B00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:147][  0]LogTemp:Display: Kicking off shader compilation for AmbientOcclusion, GameThreadShaderMap 0x000000004C069280
+[2019.12.03-14.26.44:150][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2019.12.03-14.26.44:151][  0]LogTemp:Display: Added material ShaderMap 0x000000004C000800 with Material 0x000000004C055480 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:158][  0]LogTemp:Display: Kicking off shader compilation for CustomDepthWorldUnits, GameThreadShaderMap 0x000000004C000800
+[2019.12.03-14.26.44:160][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2019.12.03-14.26.44:161][  0]LogTemp:Display: Added material ShaderMap 0x000000004CEFE080 with Material 0x000000004CF1EE00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:164][  0]LogTemp:Display: Kicking off shader compilation for SceneDepthWorldUnits, GameThreadShaderMap 0x000000004CEFE080
+[2019.12.03-14.26.44:166][  0]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
+[2019.12.03-14.26.44:167][  0]LogTemp:Display: Added material ShaderMap 0x000000004CE9F580 with Material 0x000000004CF1D300 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:170][  0]LogTemp:Display: Kicking off shader compilation for PreTonemapHDRColor, GameThreadShaderMap 0x000000004CE9F580
+[2019.12.03-14.26.44:175][  0]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
+[2019.12.03-14.26.44:175][  0]LogTemp:Display: Added material ShaderMap 0x000000004CE9CB80 with Material 0x000000004CE97280 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.44:179][  0]LogTemp:Display: Kicking off shader compilation for PostTonemapHDRColor, GameThreadShaderMap 0x000000004CE9CB80
+[2019.12.03-14.26.45:044][  0]LogInit:Display: Game Engine Initialized.
+[2019.12.03-14.26.45:408][  0]LogInit:Display: Starting Game.
+[2019.12.03-14.26.45:408][  0]LogNet: Browse: /Temp/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default?Name=Player
+[2019.12.03-14.26.45:408][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default?Name=Player
+[2019.12.03-14.26.45:485][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.03-14.26.45:485][  0]LogMemory: Process Physical Memory: 1082.50 MB used, 1104.57 MB peak
+[2019.12.03-14.26.45:485][  0]LogMemory: Process Virtual Memory: 1153.11 MB used, 1153.13 MB peak
+[2019.12.03-14.26.45:485][  0]LogMemory: Physical Memory: 6950.01 MB used,  9353.87 MB free, 16303.88 MB total
+[2019.12.03-14.26.45:485][  0]LogMemory: Virtual Memory: 1693.26 MB used,  9353.87 MB free, 8388608.00 MB total
+[2019.12.03-14.26.45:485][  0]LogMemory: 
+[2019.12.03-14.26.45:485][  0]Allocator Stats for TBB: (not implemented)
+[2019.12.03-14.26.45:756][  0]LogMaterial: Missing cached shader map for material CharaterMaterial, compiling. 
+[2019.12.03-14.26.45:760][  0]LogTemp:Display: Added material ShaderMap 0x000000004C549280 with Material 0x000000004C53C880 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.45:817][  0]LogTemp:Display: Kicking off shader compilation for CharaterMaterial, GameThreadShaderMap 0x000000004C549280
+[2019.12.03-14.26.45:862][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2019.12.03-14.26.45:863][  0]LogTemp:Display: Added material ShaderMap 0x00000000519D3900 with Material 0x000000004C545900 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.45:905][  0]LogTemp:Display: Kicking off shader compilation for M_Basic_Floor, GameThreadShaderMap 0x00000000519D3900
+[2019.12.03-14.26.45:912][  0]LogMaterial: Missing cached shader map for material M_Statue, compiling. 
+[2019.12.03-14.26.45:913][  0]LogTemp:Display: Added material ShaderMap 0x000000005238CB80 with Material 0x000000004C547400 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.45:968][  0]LogTemp:Display: Kicking off shader compilation for M_Statue, GameThreadShaderMap 0x000000005238CB80
+[2019.12.03-14.26.45:971][  0]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2019.12.03-14.26.45:972][  0]LogTemp:Display: Added material ShaderMap 0x0000000052B55980 with Material 0x000000004C590400 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.46:022][  0]LogTemp:Display: Kicking off shader compilation for M_TableRound, GameThreadShaderMap 0x0000000052B55980
+[2019.12.03-14.26.46:055][  0]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2019.12.03-14.26.46:055][  0]LogTemp:Display: Added material ShaderMap 0x00000000532E7200 with Material 0x000000004CA5BD00 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.46:116][  0]LogTemp:Display: Kicking off shader compilation for M_StatueGlass, GameThreadShaderMap 0x00000000532E7200
+[2019.12.03-14.26.46:119][  0]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2019.12.03-14.26.46:120][  0]LogTemp:Display: Added material ShaderMap 0x00000000536C5980 with Material 0x000000004CA4D180 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.46:173][  0]LogTemp:Display: Kicking off shader compilation for M_Chair, GameThreadShaderMap 0x00000000536C5980
+[2019.12.03-14.26.46:181][  0]LogMaterial: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2019.12.03-14.26.46:181][  0]LogTemp:Display: Added material ShaderMap 0x0000000054C13200 with Material 0x000000004CA3F100 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.46:237][  0]LogTemp:Display: Kicking off shader compilation for M_Metal_Copper, GameThreadShaderMap 0x0000000054C13200
+[2019.12.03-14.26.46:244][  0]LogMaterial: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2019.12.03-14.26.46:245][  0]LogTemp:Display: Added material ShaderMap 0x00000000546C8B80 with Material 0x000000004CA3D300 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.46:298][  0]LogTemp:Display: Kicking off shader compilation for M_Metal_Burnished_Steel, GameThreadShaderMap 0x00000000546C8B80
+[2019.12.03-14.26.46:301][  0]LogMaterial: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2019.12.03-14.26.46:302][  0]LogTemp:Display: Added material ShaderMap 0x0000000055E65980 with Material 0x000000004CA3A080 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.46:356][  0]LogTemp:Display: Kicking off shader compilation for M_Metal_Brushed_Nickel, GameThreadShaderMap 0x0000000055E65980
+[2019.12.03-14.26.46:365][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2019.12.03-14.26.46:367][  0]LogTemp:Display: Added material ShaderMap 0x00000000563B3200 with Material 0x000000004CACE200 to ShaderMapsBeingCompiled
+[2019.12.03-14.26.46:369][  0]LogTemp:Display: Kicking off shader compilation for M_Sky_Panning_Clouds2, GameThreadShaderMap 0x00000000563B3200
+[2019.12.03-14.26.46:640][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.03-14.26.46:640][  0]LogLoad: Game class is 'MyGame_C'
+[2019.12.03-14.26.46:644][  0]LogTemp:Display: Finished compile of shader map 0x0000000026B99600
+[2019.12.03-14.26.46:644][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x0000000026B99600, marking material Widget3DPassThrough as finished
+[2019.12.03-14.26.46:644][  0]LogTemp:Display: Marking material as finished 0x0000000025F75180
+[2019.12.03-14.26.46:644][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x0000000026B99600, marking material Widget3DPassThrough as finished
+[2019.12.03-14.26.46:644][  0]LogTemp:Display: Marking material as finished 0x0000000026B9E080
+[2019.12.03-14.26.46:647][  0]LogTemp:Display: Finished compile of shader map 0x0000000014D8F200
+[2019.12.03-14.26.46:647][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x0000000014D8F200, marking material Widget3DPassThrough as finished
+[2019.12.03-14.26.46:647][  0]LogTemp:Display: Marking material as finished 0x0000000026B9CB80
+[2019.12.03-14.26.46:648][  0]LogTemp:Display: Finished compile of shader map 0x0000000026A4A780
+[2019.12.03-14.26.46:648][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x0000000026A4A780, marking material Widget3DPassThrough as finished
+[2019.12.03-14.26.46:648][  0]LogTemp:Display: Marking material as finished 0x000000002A729300
+[2019.12.03-14.26.46:652][  0]LogTemp:Display: Finished compile of shader map 0x00000000269D9D00
+[2019.12.03-14.26.46:652][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x00000000269D9D00, marking material Widget3DPassThrough as finished
+[2019.12.03-14.26.46:652][  0]LogTemp:Display: Marking material as finished 0x000000002A72B580
+[2019.12.03-14.26.46:654][  0]LogTemp:Display: Finished compile of shader map 0x000000002697B900
+[2019.12.03-14.26.46:654][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x000000002697B900, marking material Widget3DPassThrough as finished
+[2019.12.03-14.26.46:654][  0]LogTemp:Display: Marking material as finished 0x0000000014D9BA00
+[2019.12.03-14.26.46:664][  0]LogTemp:Display: Finished compile of shader map 0x000000002774A080
+[2019.12.03-14.26.46:664][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x000000002774A080, marking material Widget3DPassThrough as finished
+[2019.12.03-14.26.46:664][  0]LogTemp:Display: Marking material as finished 0x0000000014D9A200
+[2019.12.03-14.26.46:694][  0]LogTemp:Display: Finished compile of shader map 0x0000000025910480
+[2019.12.03-14.26.46:694][  0]LogTemp:Display: Shader map CineMat complete, GameThreadShaderMap 0x0000000025910480, marking material CineMat as finished
+[2019.12.03-14.26.46:694][  0]LogTemp:Display: Marking material as finished 0x000000002C786200
+[2019.12.03-14.26.46:712][  0]LogTemp:Display: Finished compile of shader map 0x0000000027BAB580
+[2019.12.03-14.26.46:712][  0]LogTemp:Display: Shader map MatineeCam_mat complete, GameThreadShaderMap 0x0000000027BAB580, marking material MatineeCam_mat as finished
+[2019.12.03-14.26.46:712][  0]LogTemp:Display: Marking material as finished 0x0000000027A65A80
+[2019.12.03-14.26.46:718][  0]LogWorld: Bringing World /Temp/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.12.03-23.26.46
+[2019.12.03-14.26.46:718][  0]LogWorld: Bringing up level for play took: 0.003635
+[2019.12.03-14.26.46:719][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.12.03-14.26.46:722][  0]LogLoad: Took 1.314027 seconds to LoadMap(/Temp/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default)
+[2019.12.03-14.26.47:731][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:2).
+[2019.12.03-14.26.47:731][  0]LogLoad: (Engine Initialization) Total time: 71.25 seconds
+[2019.12.03-14.26.47:731][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2019.12.03-14.26.47:731][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.12.03-14.26.47:731][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.12.03-14.26.47:930][  0]LogOcInput: OculusInput pre-init called
+[2019.12.03-14.26.47:999][  1]LogAudio:Warning: Waited 37.419758ms for audio thread.
+[2019.12.03-14.26.48:001][  1]LogTemp:Display: Finished compile of shader map 0x000000002ABA7C80
+[2019.12.03-14.26.48:001][  1]LogTemp:Display: Shader map M_SimpleOpaque complete, GameThreadShaderMap 0x000000002ABA7C80, marking material M_SimpleOpaque as finished
+[2019.12.03-14.26.48:001][  1]LogTemp:Display: Marking material as finished 0x0000000029B9EE00
+[2019.12.03-14.26.48:095][  4]LogAudio:Warning: Waited 38.214031ms for audio thread.
+[2019.12.03-14.26.48:105][  4]LogAudio:Warning: Waited 48.170704ms for audio thread.
+[2019.12.03-14.26.48:197][  6]LogAudio:Warning: Waited 56.869961ms for audio thread.
+[2019.12.03-14.26.48:197][  6]LogAudio:Warning: Waited 56.895626ms for audio thread.
+[2019.12.03-14.26.48:378][ 11]LogAudio:Warning: Waited 40.716496ms for audio thread.
+[2019.12.03-14.26.48:493][ 15]LogAudio:Warning: Waited 46.791786ms for audio thread.
+[2019.12.03-14.26.49:144][ 30]LogTemp:Display: Finished compile of shader map 0x0000000028F04800
+[2019.12.03-14.26.49:144][ 30]LogTemp:Display: Shader map TransformGizmoMaterial complete, GameThreadShaderMap 0x0000000028F04800, marking material TransformGizmoMaterial as finished
+[2019.12.03-14.26.49:144][ 30]LogTemp:Display: Marking material as finished 0x000000002B308D00
+[2019.12.03-14.26.49:172][ 31]LogTemp:Display: Finished compile of shader map 0x0000000028709280
+[2019.12.03-14.26.49:172][ 31]LogTemp:Display: Shader map M_SimpleTranslucent complete, GameThreadShaderMap 0x0000000028709280, marking material M_SimpleTranslucent as finished
+[2019.12.03-14.26.49:172][ 31]LogTemp:Display: Marking material as finished 0x0000000029B9D600
+[2019.12.03-14.26.49:346][ 36]LogAudio:Warning: Waited 42.728607ms for audio thread.
+[2019.12.03-14.26.49:626][ 44]LogAudio:Warning: Waited 37.880432ms for audio thread.
+[2019.12.03-14.26.49:698][ 46]LogAudio:Warning: Waited 37.413887ms for audio thread.
+[2019.12.03-14.26.49:698][ 46]LogAudio:Warning: Waited 37.443565ms for audio thread.
+[2019.12.03-14.26.49:986][ 55]LogAudio:Warning: Waited 38.699436ms for audio thread.
+[2019.12.03-14.26.49:986][ 55]LogAudio:Warning: Waited 38.727879ms for audio thread.
+[2019.12.03-14.26.50:084][ 57]LogAudio:Warning: Waited 59.083347ms for audio thread.
+[2019.12.03-14.26.50:166][ 62]LogTemp:Display: Finished compile of shader map 0x0000000028B3E780
+[2019.12.03-14.26.50:166][ 62]LogTemp:Display: Shader map TranslucentTransformGizmoMaterial complete, GameThreadShaderMap 0x0000000028B3E780, marking material TranslucentTransformGizmoMaterial as finished
+[2019.12.03-14.26.50:166][ 62]LogTemp:Display: Marking material as finished 0x0000000028ED6B00
+[2019.12.03-14.26.50:220][ 63]LogAudio:Warning: Waited 37.605576ms for audio thread.
+[2019.12.03-14.26.50:255][ 63]LogAudio:Warning: Waited 71.855682ms for audio thread.
+[2019.12.03-14.26.50:256][ 63]LogAudio:Warning: Waited 72.941185ms for audio thread.
+[2019.12.03-14.26.50:296][ 64]LogAudio:Warning: Waited 39.385807ms for audio thread.
+[2019.12.03-14.26.50:560][ 71]LogAudio:Warning: Waited 36.896942ms for audio thread.
+[2019.12.03-14.26.50:602][ 72]LogAudio:Warning: Waited 41.536427ms for audio thread.
+[2019.12.03-14.26.50:602][ 72]LogAudio:Warning: Waited 41.563637ms for audio thread.
+[2019.12.03-14.26.50:715][ 75]LogAudio:Warning: Waited 38.898235ms for audio thread.
+[2019.12.03-14.26.50:715][ 75]LogAudio:Warning: Waited 39.333557ms for audio thread.
+[2019.12.03-14.26.50:971][ 83]LogAudio:Warning: Waited 66.726463ms for audio thread.
+[2019.12.03-14.26.52:022][123]LogAudio:Warning: Waited 45.495415ms for audio thread.
+[2019.12.03-14.26.52:036][123]LogAudio:Warning: Waited 59.612965ms for audio thread.
+[2019.12.03-14.26.52:134][127]LogAudio:Warning: Waited 45.283318ms for audio thread.
+[2019.12.03-14.26.52:215][130]LogAudio:Warning: Waited 41.094307ms for audio thread.
+[2019.12.03-14.26.52:256][133]LogTemp:Display: Finished compile of shader map 0x0000000029F5B580
+[2019.12.03-14.26.52:256][133]LogTemp:Display: Shader map VRTextMaterial complete, GameThreadShaderMap 0x0000000029F5B580, marking material VRTextMaterial as finished
+[2019.12.03-14.26.52:256][133]LogTemp:Display: Marking material as finished 0x000000002825D600
+[2019.12.03-14.26.52:276][134]LogTemp:Display: Finished compile of shader map 0x0000000029F97900
+[2019.12.03-14.26.52:276][134]LogTemp:Display: Shader map VRTextMaterial complete, GameThreadShaderMap 0x0000000029F97900, marking material VRTextMaterial as finished
+[2019.12.03-14.26.52:276][134]LogTemp:Display: Marking material as finished 0x000000002825F400
+[2019.12.03-14.26.52:277][134]LogTemp:Display: Finished compile of shader map 0x000000002828EE80
+[2019.12.03-14.26.52:277][134]LogTemp:Display: Shader map LineMaterial complete, GameThreadShaderMap 0x000000002828EE80, marking material LineMaterial as finished
+[2019.12.03-14.26.52:277][134]LogTemp:Display: Marking material as finished 0x000000002AEFD180
+[2019.12.03-14.26.52:307][135]LogTemp:Display: Finished compile of shader map 0x000000002AAD0F00
+[2019.12.03-14.26.52:307][135]LogTemp:Display: Shader map M_ContentWindow complete, GameThreadShaderMap 0x000000002AAD0F00, marking material M_ContentWindow as finished
+[2019.12.03-14.26.52:307][135]LogTemp:Display: Marking material as finished 0x000000002B749600
+[2019.12.03-14.26.52:760][148]LogAudio:Warning: Waited 69.099991ms for audio thread.
+[2019.12.03-14.26.52:786][148]LogAudio:Warning: Waited 95.190971ms for audio thread.
+[2019.12.03-14.26.52:861][150]LogAudio:Warning: Waited 38.466938ms for audio thread.
+[2019.12.03-14.26.52:973][153]LogAudio:Warning: Waited 37.949375ms for audio thread.
+[2019.12.03-14.26.53:011][154]LogAudio:Warning: Waited 36.549435ms for audio thread.
+[2019.12.03-14.26.53:050][155]LogAudio:Warning: Waited 38.135193ms for audio thread.
+[2019.12.03-14.26.53:050][155]LogAudio:Warning: Waited 38.547943ms for audio thread.
+[2019.12.03-14.26.53:123][157]LogAudio:Warning: Waited 38.531242ms for audio thread.
+[2019.12.03-14.26.53:252][162]LogAudio:Warning: Waited 39.843693ms for audio thread.
+[2019.12.03-14.26.53:268][162]LogAudio:Warning: Waited 57.181610ms for audio thread.
+[2019.12.03-14.26.53:376][165]LogAudio:Warning: Waited 36.904060ms for audio thread.
+[2019.12.03-14.26.53:568][171]LogAudio:Warning: Waited 51.103848ms for audio thread.
+[2019.12.03-14.26.53:993][184]LogAudio:Warning: Waited 37.318043ms for audio thread.
+[2019.12.03-14.26.54:928][233]LogAudio:Warning: Waited 69.135551ms for audio thread.
+[2019.12.03-14.26.54:963][233]LogAudio:Warning: Waited 104.053162ms for audio thread.
+[2019.12.03-14.26.54:968][233]LogAudio:Warning: Waited 109.155167ms for audio thread.
+[2019.12.03-14.26.55:078][236]LogAudio:Warning: Waited 41.490360ms for audio thread.
+[2019.12.03-14.26.55:285][245]LogAudio:Warning: Waited 51.558338ms for audio thread.
+[2019.12.03-14.26.55:356][246]LogAudio:Warning: Waited 69.186569ms for audio thread.
+[2019.12.03-14.26.55:387][246]LogAudio:Warning: Waited 100.932655ms for audio thread.
+[2019.12.03-14.26.55:453][250]LogTemp:Display: Finished compile of shader map 0x000000002ADE7900
+[2019.12.03-14.26.55:453][250]LogTemp:Display: Shader map DefaultTextMaterialOpaque complete, GameThreadShaderMap 0x000000002ADE7900, marking material DefaultTextMaterialOpaque as finished
+[2019.12.03-14.26.55:453][250]LogTemp:Display: Marking material as finished 0x000000002B6FBD00
+[2019.12.03-14.26.55:643][258]LogAudio:Warning: Waited 47.834011ms for audio thread.
+[2019.12.03-14.26.55:852][267]LogAudio:Warning: Waited 66.810249ms for audio thread.
+[2019.12.03-14.26.56:173][282]LogAudio:Warning: Waited 69.066910ms for audio thread.
+[2019.12.03-14.26.56:174][282]LogAudio:Warning: Waited 70.281044ms for audio thread.
+[2019.12.03-14.26.56:471][294]LogAudio:Warning: Waited 69.165230ms for audio thread.
+[2019.12.03-14.26.56:506][294]LogAudio:Warning: Waited 104.185799ms for audio thread.
+[2019.12.03-14.26.56:526][294]LogAudio:Warning: Waited 124.362869ms for audio thread.
+[2019.12.03-14.26.56:529][294]LogTemp:Display: Finished compile of shader map 0x000000002D9ADD00
+[2019.12.03-14.26.56:529][294]LogTemp:Display: Shader map GenericHMDMaterial complete, GameThreadShaderMap 0x000000002D9ADD00, marking material GenericHMDMaterial as finished
+[2019.12.03-14.26.56:529][294]LogTemp:Display: Marking material as finished 0x000000002D97B280
+[2019.12.03-14.26.56:731][306]LogTemp:Display: Finished compile of shader map 0x000000002E392400
+[2019.12.03-14.26.56:731][306]LogTemp:Display: Shader map LaserPointerMaterial complete, GameThreadShaderMap 0x000000002E392400, marking material LaserPointerMaterial as finished
+[2019.12.03-14.26.56:731][306]LogTemp:Display: Marking material as finished 0x000000002E36BB80
+[2019.12.03-14.26.56:733][306]LogTemp:Display: Finished compile of shader map 0x000000002E3F6400
+[2019.12.03-14.26.56:733][306]LogTemp:Display: Shader map GridMaterial complete, GameThreadShaderMap 0x000000002E3F6400, marking material GridMaterial as finished
+[2019.12.03-14.26.56:733][306]LogTemp:Display: Marking material as finished 0x000000002E63A800
+[2019.12.03-14.26.56:735][306]LogTemp:Display: Finished compile of shader map 0x000000002E64E780
+[2019.12.03-14.26.56:735][306]LogTemp:Display: Shader map FlattenHeightMat complete, GameThreadShaderMap 0x000000002E64E780, marking material FlattenHeightMat as finished
+[2019.12.03-14.26.56:735][306]LogTemp:Display: Marking material as finished 0x000000002D979780
+[2019.12.03-14.26.57:290][338]LogTemp:Display: Finished compile of shader map 0x000000002E391280
+[2019.12.03-14.26.57:290][338]LogTemp:Display: Shader map LaserPointerMaterial complete, GameThreadShaderMap 0x000000002E391280, marking material LaserPointerMaterial as finished
+[2019.12.03-14.26.57:290][338]LogTemp:Display: Marking material as finished 0x000000002E368100
+[2019.12.03-14.26.57:640][358]LogTemp:Display: Finished compile of shader map 0x000000002E298800
+[2019.12.03-14.26.57:640][358]LogTemp:Display: Shader map SkySphereMaterial complete, GameThreadShaderMap 0x000000002E298800, marking material SkySphereMaterial as finished
+[2019.12.03-14.26.57:640][358]LogTemp:Display: Marking material as finished 0x000000002E030400
+[2019.12.03-14.26.57:642][358]LogTemp:Display: Finished compile of shader map 0x000000002E318100
+[2019.12.03-14.26.57:642][358]LogTemp:Display: Shader map GridPostProcess complete, GameThreadShaderMap 0x000000002E318100, marking material GridPostProcess as finished
+[2019.12.03-14.26.57:642][358]LogTemp:Display: Marking material as finished 0x000000002E331D80
+[2019.12.03-14.26.57:723][360]LogAudio:Warning: Waited 52.410114ms for audio thread.
+[2019.12.03-14.26.59:200][442]LogAudio:Warning: Waited 69.664238ms for audio thread.
+[2019.12.03-14.26.59:235][442]LogAudio:Warning: Waited 104.661301ms for audio thread.
+[2019.12.03-14.26.59:250][442]LogAudio:Warning: Waited 120.215279ms for audio thread.
+[2019.12.03-14.26.59:339][444]LogAudio:Warning: Waited 69.040016ms for audio thread.
+[2019.12.03-14.26.59:350][444]LogAudio:Warning: Waited 80.801651ms for audio thread.
+[2019.12.03-14.27.00:071][476]LogAudio:Warning: Waited 52.786068ms for audio thread.
+[2019.12.03-14.27.00:436][496]LogTemp:Display: Finished compile of shader map 0x0000000032996780
+[2019.12.03-14.27.00:436][496]LogTemp:Display: Shader map FloorPlaneMaterial complete, GameThreadShaderMap 0x0000000032996780, marking material FloorPlaneMaterial as finished
+[2019.12.03-14.27.00:436][496]LogTemp:Display: Marking material as finished 0x0000000029F42E00
+[2019.12.03-14.27.01:065][532]LogTemp:Display: Finished compile of shader map 0x00000000334D6E80
+[2019.12.03-14.27.01:065][532]LogTemp:Display: Shader map LandscapeGizmo_Mat complete, GameThreadShaderMap 0x00000000334D6E80, marking material LandscapeGizmo_Mat as finished
+[2019.12.03-14.27.01:065][532]LogTemp:Display: Marking material as finished 0x00000000302FFA00
+[2019.12.03-14.27.01:066][532]LogTemp:Display: Shader map LandscapeGizmo_Mat complete, GameThreadShaderMap 0x00000000334D6E80, marking material LandscapeGizmo_Mat as finished
+[2019.12.03-14.27.01:066][532]LogTemp:Display: Marking material as finished 0x00000000302FDF00
+[2019.12.03-14.27.02:236][585]LogAudio:Warning: Waited 44.244492ms for audio thread.
+[2019.12.03-14.27.03:977][684]LogTemp:Display: Finished compile of shader map 0x0000000036631980
+[2019.12.03-14.27.03:977][684]LogTemp:Display: Shader map SplineEditorMeshMat complete, GameThreadShaderMap 0x0000000036631980, marking material SplineEditorMeshMat as finished
+[2019.12.03-14.27.03:977][684]LogTemp:Display: Marking material as finished 0x00000000365EBD00
+[2019.12.03-14.27.04:013][686]LogTemp:Display: Finished compile of shader map 0x0000000033155280
+[2019.12.03-14.27.04:013][686]LogTemp:Display: Shader map LandscapeGizmoHeight_Mat complete, GameThreadShaderMap 0x0000000033155280, marking material LandscapeGizmoHeight_Mat as finished
+[2019.12.03-14.27.04:013][686]LogTemp:Display: Marking material as finished 0x00000000302FCD00
+[2019.12.03-14.27.05:032][726]LogTemp:Display: Finished compile of shader map 0x0000000023FB1280
+[2019.12.03-14.27.05:032][726]LogTemp:Display: Shader map DefaultSpriteMaterial complete, GameThreadShaderMap 0x0000000023FB1280, marking material DefaultSpriteMaterial as finished
+[2019.12.03-14.27.05:032][726]LogTemp:Display: Marking material as finished 0x00000000233A0A00
+[2019.12.03-14.27.05:164][729]LogTemp:Display: Finished compile of shader map 0x0000000036536E80
+[2019.12.03-14.27.05:164][729]LogTemp:Display: Shader map HelpActorMaterial complete, GameThreadShaderMap 0x0000000036536E80, marking material HelpActorMaterial as finished
+[2019.12.03-14.27.05:164][729]LogTemp:Display: Marking material as finished 0x00000000365E9300
+[2019.12.03-14.27.05:261][732]LogAudio:Warning: Waited 47.494846ms for audio thread.
+[2019.12.03-14.27.06:206][767]LogTemp:Display: Finished compile of shader map 0x0000000020F79D00
+[2019.12.03-14.27.06:206][767]LogTemp:Display: Shader map DefaultSpriteMaterial complete, GameThreadShaderMap 0x0000000020F79D00, marking material DefaultSpriteMaterial as finished
+[2019.12.03-14.27.06:206][767]LogTemp:Display: Marking material as finished 0x0000000023F8EB00
+[2019.12.03-14.27.09:253][912]LogAudio:Warning: Waited 48.760609ms for audio thread.
+[2019.12.03-14.27.13:342][144]LogAudio:Warning: Waited 39.217613ms for audio thread.
+[2019.12.03-14.27.16:216][266]LogTemp:Display: Finished compile of shader map 0x000000003D679980
+[2019.12.03-14.27.16:216][266]LogTemp:Display: Shader map HighResScreenshot complete, GameThreadShaderMap 0x000000003D679980, marking material HighResScreenshot as finished
+[2019.12.03-14.27.16:216][266]LogTemp:Display: Marking material as finished 0x000000003D5E7880
+[2019.12.03-14.27.16:228][266]LogTemp:Display: Finished compile of shader map 0x000000001C490100
+[2019.12.03-14.27.16:228][266]LogTemp:Display: Shader map DefaultMaterial complete, GameThreadShaderMap 0x000000001C490100, marking material DefaultMaterial as finished
+[2019.12.03-14.27.16:228][266]LogTemp:Display: Marking material as finished 0x0000000020B14D00
+[2019.12.03-14.27.16:483][276]LogTemp:Display: Finished compile of shader map 0x000000003D5BCB80
+[2019.12.03-14.27.16:483][276]LogTemp:Display: Shader map HighResScreenshotMask complete, GameThreadShaderMap 0x000000003D5BCB80, marking material HighResScreenshotMask as finished
+[2019.12.03-14.27.16:483][276]LogTemp:Display: Marking material as finished 0x000000003D5E5180
+[2019.12.03-14.27.16:775][291]LogTemp:Display: Finished compile of shader map 0x000000003D574100
+[2019.12.03-14.27.16:775][291]LogTemp:Display: Shader map HighResScreenshotCaptureRegion complete, GameThreadShaderMap 0x000000003D574100, marking material HighResScreenshotCaptureRegion as finished
+[2019.12.03-14.27.16:775][291]LogTemp:Display: Marking material as finished 0x000000003D58B580
+[2019.12.03-14.27.19:179][422]LogAudio:Warning: Waited 69.448441ms for audio thread.
+[2019.12.03-14.27.19:189][422]LogAudio:Warning: Waited 79.629257ms for audio thread.
+[2019.12.03-14.27.19:335][430]Set new viewmode: Unlit
+[2019.12.03-14.27.19:399][430]LogAudio:Warning: Waited 62.790661ms for audio thread.
+[2019.12.03-14.27.20:109][471]LogTemp:Display: Finished compile of shader map 0x000000003D515600
+[2019.12.03-14.27.20:109][471]LogTemp:Display: Shader map WireframeMaterial complete, GameThreadShaderMap 0x000000003D515600, marking material WireframeMaterial as finished
+[2019.12.03-14.27.20:109][471]LogTemp:Display: Marking material as finished 0x000000003D588280
+[2019.12.03-14.27.20:356][477]LogAudio:Warning: Waited 69.618172ms for audio thread.
+[2019.12.03-14.27.20:391][477]LogAudio:Warning: Waited 104.617401ms for audio thread.
+[2019.12.03-14.27.20:426][477]LogAudio:Warning: Waited 139.617874ms for audio thread.
+[2019.12.03-14.27.20:461][477]LogAudio:Warning: Waited 174.617416ms for audio thread.
+[2019.12.03-14.27.20:490][477]LogAudio:Warning: Waited 203.862885ms for audio thread.
+[2019.12.03-14.27.21:040][488]Set new viewmode: Unlit
+[2019.12.03-14.27.21:562][511]LogAudio:Warning: Waited 36.414326ms for audio thread.
+[2019.12.03-14.27.23:107][582]Set new viewmode: Lit_DetailLighting
+[2019.12.03-14.27.23:244][586]LogAudio:Warning: Waited 69.220268ms for audio thread.
+[2019.12.03-14.27.23:252][586]LogAudio:Warning: Waited 77.403206ms for audio thread.
+[2019.12.03-14.27.24:012][625]Set new viewmode: Lit_DetailLighting
+[2019.12.03-14.27.24:473][651]Set new viewmode: Lit
+[2019.12.03-14.27.24:787][666]LogAudio:Warning: Waited 52.189362ms for audio thread.
+[2019.12.03-14.27.25:146][687]Set new viewmode: Unlit
+[2019.12.03-14.27.25:146][687]Set new viewmode: Lit
+[2019.12.03-14.27.25:421][699]LogAudio:Warning: Waited 51.456310ms for audio thread.
+[2019.12.03-14.27.25:491][704]Set new viewmode: Lit
+[2019.12.03-14.27.25:784][721]Set new viewmode: Lit
+[2019.12.03-14.27.26:064][735]Set new viewmode: Unlit
+[2019.12.03-14.27.26:504][759]Set new viewmode: Unlit
+[2019.12.03-14.27.26:819][774]LogAudio:Warning: Waited 55.281109ms for audio thread.
+[2019.12.03-14.27.27:007][786]Set new viewmode: Lit
+[2019.12.03-14.27.27:606][816]LogAudio:Warning: Waited 65.065262ms for audio thread.
+[2019.12.03-14.27.32:330][ 74]LogAudio:Warning: Waited 69.586945ms for audio thread.
+[2019.12.03-14.27.32:352][ 74]LogAudio:Warning: Waited 92.195061ms for audio thread.
+[2019.12.03-14.27.32:832][ 98]LogAudio:Warning: Waited 69.673515ms for audio thread.
+[2019.12.03-14.27.32:867][ 98]LogAudio:Warning: Waited 104.672745ms for audio thread.
+[2019.12.03-14.27.32:902][ 98]LogAudio:Warning: Waited 139.672913ms for audio thread.
+[2019.12.03-14.27.32:937][ 98]LogAudio:Warning: Waited 174.671829ms for audio thread.
+[2019.12.03-14.27.32:972][ 98]LogAudio:Warning: Waited 209.671677ms for audio thread.
+[2019.12.03-14.27.33:007][ 98]LogAudio:Warning: Waited 244.669678ms for audio thread.
+[2019.12.03-14.27.33:042][ 98]LogAudio:Warning: Waited 279.669525ms for audio thread.
+[2019.12.03-14.27.33:077][ 98]LogAudio:Warning: Waited 314.669037ms for audio thread.
+[2019.12.03-14.27.33:112][ 98]LogAudio:Warning: Waited 349.668884ms for audio thread.
+[2019.12.03-14.27.33:147][ 98]LogAudio:Warning: Waited 384.667511ms for audio thread.
+[2019.12.03-14.27.33:182][ 98]LogAudio:Warning: Waited 419.667999ms for audio thread.
+[2019.12.03-14.27.33:217][ 98]LogAudio:Warning: Waited 454.667206ms for audio thread.
+[2019.12.03-14.27.33:252][ 98]LogAudio:Warning: Waited 489.666748ms for audio thread.
+[2019.12.03-14.27.33:287][ 98]LogAudio:Warning: Waited 524.666626ms for audio thread.
+[2019.12.03-14.27.33:322][ 98]LogAudio:Warning: Waited 559.665771ms for audio thread.
+[2019.12.03-14.27.33:357][ 98]LogAudio:Warning: Waited 594.665344ms for audio thread.
+[2019.12.03-14.27.33:375][ 98]LogAudio:Warning: Waited 612.800659ms for audio thread.
+[2019.12.03-14.27.35:490][206]LogAudio:Warning: Waited 38.123753ms for audio thread.
+[2019.12.03-14.27.41:879][523]Set new viewmode: ShaderComplexity
+[2019.12.03-14.27.42:079][525]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.199 s
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: === Handled ensure: ===
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: 
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: Ensure condition failed: CachedShader == PixelShader->Resource [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Commands.cpp] [Line: 39]
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: Parameters are being set for a PixelShader which is not currently bound
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: Stack: 
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D08E95E6
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D0699B82
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D06AB666
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-D3D11RHI.dll!0x00000000C22DBB3D
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-D3D11RHI.dll!0x00000000C22CFA5D
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000CB1F93F5
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000CB17B513
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000CB17EA7D
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000CB16A45E
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000CB1BDB21
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000CB1EAA68
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000CB1E2023
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000CB4A64C2
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000CB47066E
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D056D84D
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D056DC6D
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x00000000D0ED0397
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x00000000D0ED1486
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D08FA3D8
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D08F4C79
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: kernel32.dll!0x000000007714570D
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: ntdll.dll!0x00000000773A385D
+[2019.12.03-14.27.42:079][525]LogOutputDevice:Error: 
+[2019.12.03-14.27.42:079][525]LogStats:                SubmitErrorReport -  0.000 s
+[2019.12.03-14.27.42:293][525]LogStats:                    SendNewReport -  0.213 s
+[2019.12.03-14.27.42:293][525]LogStats:             FDebug::EnsureFailed -  0.413 s
+[2019.12.03-14.27.42:527][538]Set new viewmode: ShaderComplexity
+[2019.12.03-14.27.43:232][575]LogAudio:Warning: Waited 55.667274ms for audio thread.
+[2019.12.03-14.27.44:732][657]LogAudio:Warning: Waited 39.966129ms for audio thread.
+[2019.12.03-14.27.45:067][672]LogAudio:Warning: Waited 69.497902ms for audio thread.
+[2019.12.03-14.27.45:082][672]LogAudio:Warning: Waited 85.377441ms for audio thread.
+[2019.12.03-14.27.45:462][690]LogAudio:Warning: Waited 69.815117ms for audio thread.
+[2019.12.03-14.27.45:479][690]LogAudio:Warning: Waited 87.087181ms for audio thread.
+[2019.12.03-14.27.45:567][692]LogAudio:Warning: Waited 69.518311ms for audio thread.
+[2019.12.03-14.27.45:602][692]LogAudio:Warning: Waited 104.519081ms for audio thread.
+[2019.12.03-14.27.45:607][692]LogAudio:Warning: Waited 110.268188ms for audio thread.
+[2019.12.03-14.27.45:609][693]Set new viewmode: Unlit
+[2019.12.03-14.27.45:714][695]LogAudio:Warning: Waited 69.671974ms for audio thread.
+[2019.12.03-14.27.45:732][695]LogAudio:Warning: Waited 87.799522ms for audio thread.
+[2019.12.03-14.27.46:063][711]LogAudio:Warning: Waited 69.879738ms for audio thread.
+[2019.12.03-14.27.46:079][711]LogAudio:Warning: Waited 86.643829ms for audio thread.
+[2019.12.03-14.27.46:198][716]LogAudio:Warning: Waited 45.893009ms for audio thread.
+[2019.12.03-14.27.46:291][719]LogAudio:Warning: Waited 54.651634ms for audio thread.
+[2019.12.03-14.27.46:326][719]LogAudio:Warning: Waited 89.566765ms for audio thread.
+[2019.12.03-14.27.46:344][719]LogAudio:Warning: Waited 108.229500ms for audio thread.
+[2019.12.03-14.27.46:345][720]Set new viewmode: Lit
+[2019.12.03-14.27.46:604][735]LogTemp:Display: Finished compile of shader map 0x000000003D010480
+[2019.12.03-14.27.46:604][735]LogTemp:Display: Shader map LevelColorationLitMaterial complete, GameThreadShaderMap 0x000000003D010480, marking material LevelColorationLitMaterial as finished
+[2019.12.03-14.27.46:604][735]LogTemp:Display: Marking material as finished 0x000000003D4E9000
+[2019.12.03-14.27.46:984][757]Set new viewmode: Lit
+[2019.12.03-14.27.47:225][771]Set new viewmode: Lit
+[2019.12.03-14.27.47:296][771]LogAudio:Warning: Waited 69.339600ms for audio thread.
+[2019.12.03-14.27.47:297][771]LogAudio:Warning: Waited 70.576920ms for audio thread.
+[2019.12.03-14.27.47:407][774]LogAudio:Warning: Waited 69.650635ms for audio thread.
+[2019.12.03-14.27.47:415][774]LogAudio:Warning: Waited 78.448212ms for audio thread.
+[2019.12.03-14.27.47:455][777]Set new viewmode: Lit
+[2019.12.03-14.27.47:654][788]Set new viewmode: Lit
+[2019.12.03-14.27.47:760][790]LogAudio:Warning: Waited 69.732872ms for audio thread.
+[2019.12.03-14.27.47:762][790]LogAudio:Warning: Waited 72.074570ms for audio thread.
+[2019.12.03-14.27.47:868][796]Set new viewmode: Lit
+[2019.12.03-14.27.48:083][808]Set new viewmode: Unlit
+[2019.12.03-14.27.48:233][813]LogAudio:Warning: Waited 54.531670ms for audio thread.
+[2019.12.03-14.27.48:334][815]LogAudio:Warning: Waited 68.957161ms for audio thread.
+[2019.12.03-14.27.48:335][816]Set new viewmode: Unlit
+[2019.12.03-14.27.48:439][818]LogAudio:Warning: Waited 69.105568ms for audio thread.
+[2019.12.03-14.27.48:453][818]LogAudio:Warning: Waited 83.311844ms for audio thread.
+[2019.12.03-14.27.48:488][821]Set new viewmode: Unlit
+[2019.12.03-14.27.48:678][832]Set new viewmode: Unlit
+[2019.12.03-14.27.48:859][842]Set new viewmode: Unlit
+[2019.12.03-14.27.49:096][851]LogAudio:Warning: Waited 69.820068ms for audio thread.
+[2019.12.03-14.27.49:110][851]LogAudio:Warning: Waited 84.127144ms for audio thread.
+[2019.12.03-14.27.49:199][853]LogAudio:Warning: Waited 69.540886ms for audio thread.
+[2019.12.03-14.27.49:215][853]LogAudio:Warning: Waited 85.731140ms for audio thread.
+[2019.12.03-14.27.49:649][878]LogTemp:Display: Finished compile of shader map 0x000000003F723200
+[2019.12.03-14.27.49:649][878]LogTemp:Display: Shader map LevelColorationUnlitMaterial complete, GameThreadShaderMap 0x000000003F723200, marking material LevelColorationUnlitMaterial as finished
+[2019.12.03-14.27.49:649][878]LogTemp:Display: Marking material as finished 0x000000003AA4B100
+[2019.12.03-14.27.49:758][881]LogAudio:Warning: Waited 64.027367ms for audio thread.
+[2019.12.03-14.27.50:283][907]LogAudio:Warning: Waited 69.725151ms for audio thread.
+[2019.12.03-14.27.50:314][907]LogAudio:Warning: Waited 100.894936ms for audio thread.
+[2019.12.03-14.27.51:339][954]LogAudio:Warning: Waited 66.339371ms for audio thread.
+[2019.12.03-14.27.51:446][957]LogAudio:Warning: Waited 69.880348ms for audio thread.
+[2019.12.03-14.27.51:446][957]LogAudio:Warning: Waited 70.160469ms for audio thread.
+[2019.12.03-14.27.51:491][959]LogRenderer: Reallocating scene render targets to support 2560x1440 NumSamples 1 (Frame:2962).
+[2019.12.03-14.27.51:576][960]LogAudio:Warning: Waited 67.475899ms for audio thread.
+[2019.12.03-14.27.52:371][  1]LogAudio:Warning: Waited 69.364342ms for audio thread.
+[2019.12.03-14.27.52:374][  1]LogAudio:Warning: Waited 72.559975ms for audio thread.
+[2019.12.03-14.27.52:502][  2]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:3006).
+[2019.12.03-14.27.52:725][ 10]LogAudio:Warning: Waited 69.256752ms for audio thread.
+[2019.12.03-14.27.52:727][ 10]LogAudio:Warning: Waited 71.786728ms for audio thread.
+[2019.12.03-14.27.52:850][ 14]LogAudio:Warning: Waited 69.244698ms for audio thread.
+[2019.12.03-14.27.52:879][ 14]LogAudio:Warning: Waited 98.245308ms for audio thread.
+[2019.12.03-14.27.53:641][ 55]LogAudio:Warning: Waited 69.216560ms for audio thread.
+[2019.12.03-14.27.53:646][ 55]LogAudio:Warning: Waited 74.751717ms for audio thread.
+[2019.12.03-14.27.53:869][ 65]LogAudio:Warning: Waited 69.232941ms for audio thread.
+[2019.12.03-14.27.53:892][ 65]LogAudio:Warning: Waited 93.021492ms for audio thread.
+[2019.12.03-14.27.53:997][ 68]LogAudio:Warning: Waited 69.704132ms for audio thread.
+[2019.12.03-14.27.54:022][ 68]LogAudio:Warning: Waited 94.978569ms for audio thread.
+[2019.12.03-14.27.54:347][ 83]LogAudio:Warning: Waited 69.814194ms for audio thread.
+[2019.12.03-14.27.54:369][ 83]LogAudio:Warning: Waited 91.902267ms for audio thread.
+[2019.12.03-14.27.54:578][ 92]LogAudio:Warning: Waited 69.069077ms for audio thread.
+[2019.12.03-14.27.54:589][ 92]LogAudio:Warning: Waited 80.221336ms for audio thread.
+[2019.12.03-14.27.54:848][ 99]LogAudio:Warning: Waited 69.243759ms for audio thread.
+[2019.12.03-14.27.54:883][ 99]LogAudio:Warning: Waited 104.242683ms for audio thread.
+[2019.12.03-14.27.54:918][ 99]LogAudio:Warning: Waited 139.242523ms for audio thread.
+[2019.12.03-14.27.54:946][ 99]LogAudio:Warning: Waited 167.827621ms for audio thread.
+[2019.12.03-14.27.55:227][112]LogAudio:Warning: Waited 69.894890ms for audio thread.
+[2019.12.03-14.27.55:250][112]LogAudio:Warning: Waited 93.599022ms for audio thread.
+[2019.12.03-14.27.55:385][117]LogAudio:Warning: Waited 64.452484ms for audio thread.
+[2019.12.03-14.27.55:617][122]LogAudio:Warning: Waited 69.785439ms for audio thread.
+[2019.12.03-14.27.55:652][122]LogAudio:Warning: Waited 104.784050ms for audio thread.
+[2019.12.03-14.27.55:656][122]LogAudio:Warning: Waited 108.924210ms for audio thread.
+[2019.12.03-14.27.55:750][125]LogAudio:Warning: Waited 56.221622ms for audio thread.
+[2019.12.03-14.27.55:750][126]Set new viewmode: ShaderComplexity
+[2019.12.03-14.27.55:985][135]LogAudio:Warning: Waited 69.948990ms for audio thread.
+[2019.12.03-14.27.56:020][135]LogAudio:Warning: Waited 104.956566ms for audio thread.
+[2019.12.03-14.27.56:024][135]LogAudio:Warning: Waited 109.176186ms for audio thread.
+[2019.12.03-14.27.56:206][143]Set new viewmode: ShaderComplexity
+[2019.12.03-14.27.56:331][146]LogAudio:Warning: Waited 69.247467ms for audio thread.
+[2019.12.03-14.27.56:334][146]LogAudio:Warning: Waited 72.730942ms for audio thread.
+[2019.12.03-14.27.56:564][156]LogAudio:Warning: Waited 69.226448ms for audio thread.
+[2019.12.03-14.27.56:572][156]LogAudio:Warning: Waited 77.955086ms for audio thread.
+[2019.12.03-14.27.56:819][167]LogAudio:Warning: Waited 69.206360ms for audio thread.
+[2019.12.03-14.27.56:825][167]LogAudio:Warning: Waited 75.883606ms for audio thread.
+[2019.12.03-14.27.57:084][179]LogAudio:Warning: Waited 69.160599ms for audio thread.
+[2019.12.03-14.27.57:097][179]LogAudio:Warning: Waited 82.400398ms for audio thread.
+[2019.12.03-14.27.57:223][183]LogAudio:Warning: Waited 67.353775ms for audio thread.
+[2019.12.03-14.27.57:339][188]LogAudio:Warning: Waited 45.210354ms for audio thread.
+[2019.12.03-14.27.57:443][191]LogAudio:Warning: Waited 69.280861ms for audio thread.
+[2019.12.03-14.27.57:465][191]LogAudio:Warning: Waited 91.506218ms for audio thread.
+[2019.12.03-14.27.57:570][194]LogAudio:Warning: Waited 69.231400ms for audio thread.
+[2019.12.03-14.27.57:605][194]LogAudio:Warning: Waited 104.230316ms for audio thread.
+[2019.12.03-14.27.57:640][194]LogAudio:Warning: Waited 139.230469ms for audio thread.
+[2019.12.03-14.27.57:672][194]LogAudio:Warning: Waited 171.844727ms for audio thread.
+[2019.12.03-14.27.57:794][198]LogAudio:Warning: Waited 69.260460ms for audio thread.
+[2019.12.03-14.27.57:803][198]LogAudio:Warning: Waited 78.498917ms for audio thread.
+[2019.12.03-14.27.58:048][209]LogAudio:Warning: Waited 69.261703ms for audio thread.
+[2019.12.03-14.27.58:055][209]LogAudio:Warning: Waited 76.645103ms for audio thread.
+[2019.12.03-14.27.58:263][218]LogAudio:Warning: Waited 69.233566ms for audio thread.
+[2019.12.03-14.27.58:302][218]LogAudio:Warning: Waited 108.280823ms for audio thread.
+[2019.12.03-14.27.58:337][218]LogAudio:Warning: Waited 143.234909ms for audio thread.
+[2019.12.03-14.27.58:372][218]LogAudio:Warning: Waited 178.232590ms for audio thread.
+[2019.12.03-14.27.58:407][218]LogAudio:Warning: Waited 213.232758ms for audio thread.
+[2019.12.03-14.27.58:442][218]LogAudio:Warning: Waited 248.233521ms for audio thread.
+[2019.12.03-14.27.58:464][218]LogAudio:Warning: Waited 270.896973ms for audio thread.
+[2019.12.03-14.27.58:743][229]Set new viewmode: Lit_DetailLighting
+[2019.12.03-14.27.58:847][231]LogAudio:Warning: Waited 69.355377ms for audio thread.
+[2019.12.03-14.27.58:952][234]LogAudio:Warning: Waited 69.200783ms for audio thread.
+[2019.12.03-14.27.58:987][234]LogAudio:Warning: Waited 104.200020ms for audio thread.
+[2019.12.03-14.27.59:000][234]LogAudio:Warning: Waited 117.244423ms for audio thread.
+[2019.12.03-14.27.59:107][237]LogAudio:Warning: Waited 69.884995ms for audio thread.
+[2019.12.03-14.27.59:133][237]LogAudio:Warning: Waited 96.508980ms for audio thread.
+[2019.12.03-14.27.59:239][240]LogAudio:Warning: Waited 69.685883ms for audio thread.
+[2019.12.03-14.27.59:241][240]LogAudio:Warning: Waited 72.587173ms for audio thread.
+[2019.12.03-14.27.59:380][245]LogAudio:Warning: Waited 69.654968ms for audio thread.
+[2019.12.03-14.27.59:405][245]LogAudio:Warning: Waited 95.406769ms for audio thread.
+[2019.12.03-14.27.59:627][254]LogAudio:Warning: Waited 69.800896ms for audio thread.
+[2019.12.03-14.27.59:636][254]LogAudio:Warning: Waited 79.570518ms for audio thread.
+[2019.12.03-14.27.59:743][257]LogAudio:Warning: Waited 69.238815ms for audio thread.
+[2019.12.03-14.27.59:778][257]LogAudio:Warning: Waited 104.235573ms for audio thread.
+[2019.12.03-14.27.59:793][257]LogAudio:Warning: Waited 120.002884ms for audio thread.
+[2019.12.03-14.27.59:794][258]Set new viewmode: Lit
+[2019.12.03-14.27.59:960][264]LogAudio:Warning: Waited 63.074486ms for audio thread.
+[2019.12.03-14.28.00:064][267]LogAudio:Warning: Waited 68.230911ms for audio thread.
+[2019.12.03-14.28.00:271][277]Set new viewmode: Lit_DetailLighting
+[2019.12.03-14.28.00:454][284]LogAudio:Warning: Waited 69.385986ms for audio thread.
+[2019.12.03-14.28.00:480][284]LogAudio:Warning: Waited 95.634010ms for audio thread.
+[2019.12.03-14.28.01:245][323]LogAudio:Warning: Waited 69.123184ms for audio thread.
+[2019.12.03-14.28.01:260][323]LogAudio:Warning: Waited 84.362732ms for audio thread.
+[2019.12.03-14.28.01:508][336]LogAudio:Warning: Waited 37.327625ms for audio thread.
+[2019.12.03-14.28.01:777][347]LogAudio:Warning: Waited 69.788216ms for audio thread.
+[2019.12.03-14.28.01:812][347]LogAudio:Warning: Waited 104.773537ms for audio thread.
+[2019.12.03-14.28.01:847][347]LogAudio:Warning: Waited 139.771530ms for audio thread.
+[2019.12.03-14.28.01:852][347]LogAudio:Warning: Waited 145.303299ms for audio thread.
+[2019.12.03-14.28.01:947][351]LogAudio:Warning: Waited 43.549461ms for audio thread.
+[2019.12.03-14.28.02:086][360]Set new viewmode: Lit
+[2019.12.03-14.28.02:630][388]LogAudio:Warning: Waited 69.953934ms for audio thread.
+[2019.12.03-14.28.02:630][388]LogAudio:Warning: Waited 70.337936ms for audio thread.
+[2019.12.03-14.28.03:167][418]LogAudio:Warning: Waited 40.165543ms for audio thread.
+[2019.12.03-14.28.03:374][428]LogAudio:Warning: Waited 51.701172ms for audio thread.
+[2019.12.03-14.28.04:337][480]LogAudio:Warning: Waited 69.675369ms for audio thread.
+[2019.12.03-14.28.04:342][480]LogAudio:Warning: Waited 74.914650ms for audio thread.
+[2019.12.03-14.28.05:381][533]LogAudio:Warning: Waited 48.471844ms for audio thread.
+[2019.12.03-14.28.06:913][613]LogAudio:Warning: Waited 69.074646ms for audio thread.
+[2019.12.03-14.28.06:935][613]LogAudio:Warning: Waited 91.750160ms for audio thread.
+[2019.12.03-14.28.08:201][684]LogAudio:Warning: Waited 40.698254ms for audio thread.
+[2019.12.03-14.28.13:622][976]LogAudio:Warning: Waited 37.471085ms for audio thread.
+[2019.12.03-14.28.16:483][119]LogAudio:Warning: Waited 50.777977ms for audio thread.
+[2019.12.03-14.28.16:957][143]LogAudio:Warning: Waited 53.111633ms for audio thread.
+[2019.12.03-14.28.17:155][152]LogAudio:Warning: Waited 59.945637ms for audio thread.
+[2019.12.03-14.28.17:465][168]LogAudio:Warning: Waited 49.372776ms for audio thread.
+[2019.12.03-14.28.17:563][172]LogAudio:Warning: Waited 45.351337ms for audio thread.
+[2019.12.03-14.28.18:944][248]LogAudio:Warning: Waited 60.296238ms for audio thread.
+[2019.12.03-14.28.19:305][270]LogTemp:Display: Finished compile of shader map 0x0000000040EBB580
+[2019.12.03-14.28.19:305][270]LogTemp:Display: Shader map MAT_LevelColorationLitLightmapUV complete, GameThreadShaderMap 0x0000000040EBB580, marking material MAT_LevelColorationLitLightmapUV as finished
+[2019.12.03-14.28.19:305][270]LogTemp:Display: Marking material as finished 0x000000003AA49000
+[2019.12.03-14.28.19:867][300]LogAudio:Warning: Waited 39.827923ms for audio thread.
+[2019.12.03-14.28.19:967][304]LogAudio:Warning: Waited 49.091736ms for audio thread.
+[2019.12.03-14.28.20:789][350]LogAudio:Warning: Waited 42.130356ms for audio thread.
+[2019.12.03-14.28.22:657][456]LogAudio:Warning: Waited 57.257050ms for audio thread.
+[2019.12.03-14.28.24:712][572]LogAudio:Warning: Waited 50.274330ms for audio thread.
+[2019.12.03-14.28.25:045][588]LogAudio:Warning: Waited 69.211304ms for audio thread.
+[2019.12.03-14.28.25:080][588]LogAudio:Warning: Waited 104.206207ms for audio thread.
+[2019.12.03-14.28.25:115][588]LogAudio:Warning: Waited 139.227692ms for audio thread.
+[2019.12.03-14.28.25:150][588]LogAudio:Warning: Waited 174.205582ms for audio thread.
+[2019.12.03-14.28.25:185][588]LogAudio:Warning: Waited 209.208221ms for audio thread.
+[2019.12.03-14.28.25:220][588]LogAudio:Warning: Waited 244.210541ms for audio thread.
+[2019.12.03-14.28.25:255][588]LogAudio:Warning: Waited 279.201111ms for audio thread.
+[2019.12.03-14.28.25:290][588]LogAudio:Warning: Waited 314.202179ms for audio thread.
+[2019.12.03-14.28.25:325][588]LogAudio:Warning: Waited 349.204224ms for audio thread.
+[2019.12.03-14.28.25:360][588]LogAudio:Warning: Waited 384.208710ms for audio thread.
+[2019.12.03-14.28.25:395][588]LogAudio:Warning: Waited 419.286743ms for audio thread.
+[2019.12.03-14.28.25:430][588]LogAudio:Warning: Waited 454.199432ms for audio thread.
+[2019.12.03-14.28.25:455][588]LogAudio:Warning: Waited 479.936096ms for audio thread.
+[2019.12.03-14.28.27:743][666]LogAudio:Warning: Waited 69.088860ms for audio thread.
+[2019.12.03-14.28.27:778][666]LogAudio:Warning: Waited 104.251656ms for audio thread.
+[2019.12.03-14.28.27:813][666]LogAudio:Warning: Waited 139.087952ms for audio thread.
+[2019.12.03-14.28.27:848][666]LogAudio:Warning: Waited 174.082840ms for audio thread.
+[2019.12.03-14.28.27:865][666]LogAudio:Warning: Waited 191.828568ms for audio thread.
+[2019.12.03-14.28.28:096][675]LogAudio:Warning: Waited 69.313019ms for audio thread.
+[2019.12.03-14.28.28:124][675]LogAudio:Warning: Waited 97.415169ms for audio thread.
+[2019.12.03-14.28.35:879][104]LogAudio:Warning: Waited 66.923714ms for audio thread.
+[2019.12.03-14.28.37:719][208]LogEngine: All Windows Closed
+[2019.12.03-14.28.37:719][208]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.12.03-14.28.37:719][209]LogMoviePlayer: Shutting down movie player
+[2019.12.03-14.28.37:984][209]LogExit: Preparing to exit.
+[2019.12.03-14.28.38:409][209]LogExit: Game engine shut down
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x0000000044682400 from material 0x000000004331A200
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x0000000049E3A080 from material 0x000000004929F880
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x0000000049648100 from material 0x000000004929CE80
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x000000004AAB1280 from material 0x00000000495D7880
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x000000004AA59280 from material 0x00000000495D6080
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x000000004A9F9280 from material 0x00000000495D4B80
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x000000004A719280 from material 0x000000004A73B400
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x000000004A6B1280 from material 0x000000004A739F00
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x000000004A651980 from material 0x000000004A738D00
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x000000004B337C80 from material 0x000000004A5FF580
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x000000004B2D7580 from material 0x000000004A5FDF00
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x000000004B9D9D00 from material 0x000000004A5FCB80
+[2019.12.03-14.28.38:409][209]LogTemp:Display: Removed shader map 0x000000004B716E80 from material 0x000000004B9B6B00
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004B6B2400 from material 0x000000004B676080
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000001EBBAB00 from material 0x000000004B674700
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x0000000019AD5280 from material 0x000000004C2F6380
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C296780 from material 0x000000004C2F4A00
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C294480 from material 0x0000000025F77280
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C232080 from material 0x000000004C24A980
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C1C7C80 from material 0x000000004C249300
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C1C5980 from material 0x000000004C1CB700
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C1AF580 from material 0x000000004C1C9D80
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C1ACF00 from material 0x000000004C1C8580
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C14AB00 from material 0x000000004C15E980
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C148800 from material 0x000000004C15D000
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C0D1D00 from material 0x000000004C0DE080
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C06B580 from material 0x000000004C0DC700
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C069280 from material 0x000000004C056B00
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004C000800 from material 0x000000004C055480
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004CEFE080 from material 0x000000004CF1EE00
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004CE9F580 from material 0x000000004CF1D300
+[2019.12.03-14.28.38:410][209]LogTemp:Display: Removed shader map 0x000000004CE9CB80 from material 0x000000004CE97280
+[2019.12.03-14.28.38:411][209]LogTemp:Display: Removed shader map 0x00000000563B3200 from material 0x000000004CACE200
+[2019.12.03-14.28.38:411][209]LogTemp:Display: Removed shader map 0x0000000055E65980 from material 0x000000004CA3A080
+[2019.12.03-14.28.38:411][209]LogTemp:Display: Removed shader map 0x00000000546C8B80 from material 0x000000004CA3D300
+[2019.12.03-14.28.38:411][209]LogTemp:Display: Removed shader map 0x0000000054C13200 from material 0x000000004CA3F100
+[2019.12.03-14.28.38:411][209]LogTemp:Display: Removed shader map 0x00000000536C5980 from material 0x000000004CA4D180
+[2019.12.03-14.28.38:411][209]LogTemp:Display: Removed shader map 0x00000000532E7200 from material 0x000000004CA5BD00
+[2019.12.03-14.28.38:412][209]LogTemp:Display: Removed shader map 0x0000000052B55980 from material 0x000000004C590400
+[2019.12.03-14.28.38:412][209]LogTemp:Display: Removed shader map 0x000000005238CB80 from material 0x000000004C547400
+[2019.12.03-14.28.38:412][209]LogTemp:Display: Removed shader map 0x00000000519D3900 from material 0x000000004C545900
+[2019.12.03-14.28.38:412][209]LogTemp:Display: Removed shader map 0x000000004C549280 from material 0x000000004C53C880
+[2019.12.03-14.28.38:450][209]LogObj: Freed 0b from 0 cluster array pools.
+[2019.12.03-14.28.38:450][209]LogExit: Object subsystem successfully closed.
+[2019.12.03-14.28.38:459][209]LogD3D11RHI: Shutdown
+[2019.12.03-14.28.38:459][209]LogD3D11RHI: CleanupD3DDevice
+[2019.12.03-14.28.38:483][209]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (264)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module SequenceRecorder (262)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module AutomationController (260)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module AutomationWorker (258)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module AIModule (256)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module GameplayDebugger (255)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module AITestSuite (253)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (250)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module MfMediaFactory (248)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (246)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (244)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module CharacterAI (240)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module SessionServices (238)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (236)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module GeometryCache (234)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (233)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module Niagara (230)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (228)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module PortalServices (226)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module PortalRpc (224)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module MessagingRpc (222)
+[2019.12.03-14.28.38:491][209]LogModuleManager: Shutting down and abandoning module ProfilerService (220)
+[2019.12.03-14.28.38:650][209]LogModuleManager: Shutting down and abandoning module TaskGraph (218)
+[2019.12.03-14.28.38:650][209]LogModuleManager: Shutting down and abandoning module SteamVRController (216)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module SteamVR (214)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (212)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module OculusLibrary (210)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module OculusInput (208)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (206)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (204)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module CableComponent (202)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (200)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module HTML5Networking (196)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (194)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module DesktopPlatform (193)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module HotReload (191)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (190)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module UObjectPlugin (186)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (184)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (182)
+[2019.12.03-14.28.38:651][209]LogModuleManager: Shutting down and abandoning module SourceControl (181)
+[2019.12.03-14.28.38:652][209]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (178)
+[2019.12.03-14.28.38:652][209]LogModuleManager: Shutting down and abandoning module PhysXVehicles (176)
+[2019.12.03-14.28.38:652][209]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (174)
+[2019.12.03-14.28.38:652][209]LogModuleManager: Shutting down and abandoning module UdpMessaging (172)
+[2019.12.03-14.28.38:752][209]LogModuleManager: Shutting down and abandoning module TcpMessaging (170)
+[2019.12.03-14.28.38:852][209]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (168)
+[2019.12.03-14.28.38:852][209]LogModuleManager: Shutting down and abandoning module FacialAnimation (166)
+[2019.12.03-14.28.38:852][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (164)
+[2019.12.03-14.28.38:852][209]LogModuleManager: Shutting down and abandoning module Paper2D (162)
+[2019.12.03-14.28.38:852][209]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (160)
+[2019.12.03-14.28.38:852][209]LogModuleManager: Shutting down and abandoning module WmfMedia (158)
+[2019.12.03-14.28.38:853][209]LogModuleManager: Shutting down and abandoning module MfMedia (156)
+[2019.12.03-14.28.38:853][209]LogModuleManager: Shutting down and abandoning module MediaAssets (154)
+[2019.12.03-14.28.38:853][209]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (152)
+[2019.12.03-14.28.38:853][209]LogModuleManager: Shutting down and abandoning module VREditor (150)
+[2019.12.03-14.28.38:853][209]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (148)
+[2019.12.03-14.28.38:853][209]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (146)
+[2019.12.03-14.28.38:853][209]LogModuleManager: Shutting down and abandoning module FunctionalTesting (144)
+[2019.12.03-14.28.38:853][209]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (142)
+[2019.12.03-14.28.38:853][209]LogModuleManager: Shutting down and abandoning module UMG (140)
+[2019.12.03-14.28.38:853][209]LogModuleManager: Shutting down and abandoning module UMGEditor (139)
+[2019.12.03-14.28.38:854][209]LogModuleManager: Shutting down and abandoning module Sequencer (138)
+[2019.12.03-14.28.38:854][209]LogModuleManager: Shutting down and abandoning module AssetTools (136)
+[2019.12.03-14.28.38:854][209]LogModuleManager: Shutting down and abandoning module MessageLog (135)
+[2019.12.03-14.28.38:854][209]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (134)
+[2019.12.03-14.28.38:854][209]LogModuleManager: Shutting down and abandoning module SlateReflector (128)
+[2019.12.03-14.28.38:854][209]LogModuleManager: Shutting down and abandoning module Slate (126)
+[2019.12.03-14.28.38:854][209]LogModuleManager: Shutting down and abandoning module EditorStyle (124)
+[2019.12.03-14.28.38:862][209]LogModuleManager: Shutting down and abandoning module Messaging (122)
+[2019.12.03-14.28.38:862][209]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (120)
+[2019.12.03-14.28.38:862][209]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (118)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module XAudio2 (116)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module Networking (114)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module Core (110)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module KismetCompiler (108)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module PhysXFormats (106)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module MeshUtilities (104)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (103)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (101)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (99)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module PropertyEditor (97)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module AssetRegistry (94)
+[2019.12.03-14.28.38:863][209]LogModuleManager: Shutting down and abandoning module DerivedDataCache (92)
+[2019.12.03-14.28.38:865][209]LogDerivedDataCache: Shutdown
+[2019.12.03-14.28.38:865][209]LogModuleManager: Shutting down and abandoning module TargetPlatform (90)
+[2019.12.03-14.28.38:865][209]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (89)
+[2019.12.03-14.28.38:865][209]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (87)
+[2019.12.03-14.28.38:865][209]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (85)
+[2019.12.03-14.28.38:865][209]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (83)
+[2019.12.03-14.28.38:865][209]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (81)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (79)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (77)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (75)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (73)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module ImageWrapper (72)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (69)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (67)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (63)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (61)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (59)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (57)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (55)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2019.12.03-14.28.38:866][209]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2019.12.03-14.28.38:867][209]LogOnline:Display: Unloading online subsystem: NULL
+[2019.12.03-14.28.38:867][209]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2019.12.03-14.28.38:867][209]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2019.12.03-14.28.38:885][209]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2019.12.03-14.28.38:889][209]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2019.12.03-14.28.38:889][209]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.12.03-14.28.38:890][209]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.12.03-14.28.38:893][209]LogExit: Exiting.
+[2019.12.03-14.28.38:897][209]Log file closed, 12/03/19 23:28:38
